@@ -1,0 +1,99 @@
+2025-10-14 18:18:51 POST data: Array
+(
+    [title] => 123
+    [description] => 123
+    [property_type] => house
+    [availability_date] => 2025-10-22
+    [address] => Edelweiss St. Pembo
+    [city] => Taguig City
+    [state] => Metro Manila
+    [zip_code] => 1642
+    [bedrooms] => 1
+    [bathrooms] => 1
+    [square_feet] => 1
+    [rent_amount] => 1
+    [deposit_amount] => 1
+    [amenities] => Array
+        (
+            [0] => Security
+        )
+
+    [add_property] => 1
+)
+
+2025-10-14 18:19:04 POST data: Array
+(
+    [title] => 123
+    [description] => 123
+    [property_type] => house
+    [availability_date] => 2025-10-22
+    [address] => Edelweiss St. Pembo
+    [city] => Taguig City
+    [state] => Metro Manila
+    [zip_code] => 1642
+    [bedrooms] => 1
+    [bathrooms] => 1
+    [square_feet] => 1
+    [rent_amount] => 1
+    [deposit_amount] => 1
+    [amenities] => Array
+        (
+            [0] => Security
+        )
+
+    [add_property] => 1
+)
+
+2025-10-14 18:20:12 POST data: Array
+(
+    [title] => Sample
+    [description] => Description
+    [property_type] => apartment
+    [availability_date] => 2025-11-08
+    [address] => Edelweiss St. Pembo
+    [city] => Taguig City
+    [state] => Metro Manila
+    [zip_code] => 1642
+    [bedrooms] => 1
+    [bathrooms] => 1
+    [square_feet] => 200
+    [rent_amount] => 5000
+    [deposit_amount] => 5000
+    [amenities] => Array
+        (
+            [0] => Air Conditioning
+            [1] => Laundry
+            [2] => Security
+            [3] => Pet Friendly
+            [4] => Furnished
+        )
+
+    [add_property] => 1
+)
+
+2025-10-15 08:05:36 POST data: Array
+(
+    [title] => Latigo Esta
+    [description] => Test
+    [property_type] => apartment
+    [availability_date] => 2025-11-01
+    [address] => H278+RC7, Metropolitan Ave, Santa Cruz, Makati City, 1205 Metro Manila
+    [city] => Makati
+    [state] => Metro Manila
+    [zip_code] => 1205
+    [bedrooms] => 1
+    [bathrooms] => 1
+    [square_feet] => 200
+    [rent_amount] => 6000
+    [deposit_amount] => 6000
+    [amenities] => Array
+        (
+            [0] => Wi-Fi
+            [1] => Air Conditioning
+            [2] => Pool
+            [3] => Security
+        )
+
+    [add_property] => 1
+)
+
