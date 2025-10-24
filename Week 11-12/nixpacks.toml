@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = ['php82', 'php82Extensions.mysqli']
+nixPkgs = ['php83', 'php83Extensions.mysqli', 'php83Extensions.pdo', 'php83Extensions.pdo_mysql', 'php83Extensions.mbstring']
 
 [phases.build]
 cmds = ['chmod +x start.sh']
