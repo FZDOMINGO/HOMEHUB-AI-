@@ -1,0 +1,48 @@
+#!/bin/bash
+
+# HomeHub Start Script for Railway.app
+echo "🚀 Starting HomeHub Property Management System..."
+
+# Create necessary directories
+mkdir -p uploads/properties
+mkdir -p ai/cache
+mkdir -p ai/logs
+mkdir -p ai/models
+
+# Set proper permissions
+chmod 755 uploads
+chmod 755 uploads/properties
+chmod 755 ai/cache
+chmod 755 ai/logs
+chmod 755 ai/models
+
+# Check if DATABASE_URL is set (Railway environment)
+if [ ! -z "$DATABASE_URL" ]; then
+    echo "✅ Railway database detected"
+    echo "🗄️ Database URL configured: ${DATABASE_URL:0:20}..."
+else
+    echo "⚠️ No DATABASE_URL found - using local configuration"
+fi
+
+# Install Python dependencies if AI is enabled
+if [ "$ENABLE_AI_FEATURES" = "true" ]; then
+    echo "🤖 AI features enabled - setting up Python environment..."
+    cd ai
+    if [ -f requirements.txt ]; then
+        pip install -r requirements.txt
+        echo "✅ Python dependencies installed"
+    fi
+    cd ..
+fi
+
+# Initialize database if needed
+if [ "$INIT_DATABASE" = "true" ]; then
+    echo "🗄️ Initializing database..."
+    php simple_setup.php
+fi
+
+echo "🎉 HomeHub startup complete!"
+echo "🌐 Starting PHP server on port $PORT..."
+
+# Start PHP built-in server
+exec php -S 0.0.0.0:$PORT -t .
