@@ -1,11 +1,5 @@
-[phases.setup]
-nixPkgs = ['php83', 'php83Extensions.mysqli', 'php83Extensions.pdo', 'php83Extensions.pdo_mysql', 'php83Extensions.mbstring', 'php83Extensions.openssl']
-
-[phases.install]
-cmds = ['php -m']
-
 [phases.build]
-cmds = ['chmod +x start.sh', 'php -v', 'php -m | grep -i mysql || echo "MySQL extensions not found"']
+cmds = ['chmod +x build.sh start.sh', './build.sh']
 
 [start]
 cmd = './start.sh'
