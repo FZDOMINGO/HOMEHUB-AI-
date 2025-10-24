@@ -19,26 +19,9 @@ chmod 755 ai/models
 # Check if DATABASE_URL is set (Railway environment)
 if [ ! -z "$DATABASE_URL" ]; then
     echo "✅ Railway database detected"
-    echo "🗄️ Database URL configured: ${DATABASE_URL:0:20}..."
+    echo "🗄️ Database configured successfully"
 else
     echo "⚠️ No DATABASE_URL found - using local configuration"
-fi
-
-# Install Python dependencies if AI is enabled
-if [ "$ENABLE_AI_FEATURES" = "true" ]; then
-    echo "🤖 AI features enabled - setting up Python environment..."
-    cd ai
-    if [ -f requirements.txt ]; then
-        pip install -r requirements.txt
-        echo "✅ Python dependencies installed"
-    fi
-    cd ..
-fi
-
-# Initialize database if needed
-if [ "$INIT_DATABASE" = "true" ]; then
-    echo "🗄️ Initializing database..."
-    php simple_setup.php
 fi
 
 echo "🎉 HomeHub startup complete!"
