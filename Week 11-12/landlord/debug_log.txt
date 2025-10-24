@@ -1,0 +1,367 @@
+2025-10-14 18:18:51 POST data: Array
+(
+    [title] => 123
+    [description] => 123
+    [property_type] => house
+    [availability_date] => 2025-10-22
+    [address] => Edelweiss St. Pembo
+    [city] => Taguig City
+    [state] => Metro Manila
+    [zip_code] => 1642
+    [bedrooms] => 1
+    [bathrooms] => 1
+    [square_feet] => 1
+    [rent_amount] => 1
+    [deposit_amount] => 1
+    [amenities] => Array
+        (
+            [0] => Security
+        )
+
+    [add_property] => 1
+)
+
+2025-10-14 18:19:04 POST data: Array
+(
+    [title] => 123
+    [description] => 123
+    [property_type] => house
+    [availability_date] => 2025-10-22
+    [address] => Edelweiss St. Pembo
+    [city] => Taguig City
+    [state] => Metro Manila
+    [zip_code] => 1642
+    [bedrooms] => 1
+    [bathrooms] => 1
+    [square_feet] => 1
+    [rent_amount] => 1
+    [deposit_amount] => 1
+    [amenities] => Array
+        (
+            [0] => Security
+        )
+
+    [add_property] => 1
+)
+
+2025-10-14 18:20:12 POST data: Array
+(
+    [title] => Sample
+    [description] => Description
+    [property_type] => apartment
+    [availability_date] => 2025-11-08
+    [address] => Edelweiss St. Pembo
+    [city] => Taguig City
+    [state] => Metro Manila
+    [zip_code] => 1642
+    [bedrooms] => 1
+    [bathrooms] => 1
+    [square_feet] => 200
+    [rent_amount] => 5000
+    [deposit_amount] => 5000
+    [amenities] => Array
+        (
+            [0] => Air Conditioning
+            [1] => Laundry
+            [2] => Security
+            [3] => Pet Friendly
+            [4] => Furnished
+        )
+
+    [add_property] => 1
+)
+
+2025-10-15 08:05:36 POST data: Array
+(
+    [title] => Latigo Esta
+    [description] => Test
+    [property_type] => apartment
+    [availability_date] => 2025-11-01
+    [address] => H278+RC7, Metropolitan Ave, Santa Cruz, Makati City, 1205 Metro Manila
+    [city] => Makati
+    [state] => Metro Manila
+    [zip_code] => 1205
+    [bedrooms] => 1
+    [bathrooms] => 1
+    [square_feet] => 200
+    [rent_amount] => 6000
+    [deposit_amount] => 6000
+    [amenities] => Array
+        (
+            [0] => Wi-Fi
+            [1] => Air Conditioning
+            [2] => Pool
+            [3] => Security
+        )
+
+    [add_property] => 1
+)
+
+2025-10-20 19:31:05 POST data: Array
+(
+    [title] => MJS HOUSE
+    [description] => GOOD PROPERTY
+    [property_type] => apartment
+    [availability_date] => 2025-11-08
+    [address] => NICE
+    [city] => Taguig City
+    [state] => Metro Manila
+    [zip_code] => 1642
+    [bedrooms] => 1
+    [bathrooms] => 1
+    [square_feet] => 1
+    [rent_amount] => 1
+    [deposit_amount] => 10000
+    [amenities] => Array
+        (
+            [0] => Wi-Fi
+            [1] => Parking
+            [2] => Laundry
+            [3] => Gym
+            [4] => Pool
+            [5] => Pet Friendly
+            [6] => Furnished
+            [7] => Balcony
+        )
+
+    [add_property] => 1
+)
+
+2025-10-20 19:35:19 POST data: Array
+(
+    [title] => DOBSTER PROPERTY
+    [description] => GOOD PROPERTY
+    [property_type] => commercial
+    [availability_date] => 2026-02-07
+    [address] => Edelweiss St. Pembo
+    [city] => Taguig City
+    [state] => Metro Manila
+    [zip_code] => 1642
+    [bedrooms] => 1
+    [bathrooms] => 1
+    [square_feet] => 100
+    [rent_amount] => 20000
+    [deposit_amount] => 4000
+    [amenities] => Array
+        (
+            [0] => Parking
+            [1] => Gym
+            [2] => Pet Friendly
+            [3] => Furnished
+            [4] => Balcony
+        )
+
+    [add_property] => 1
+)
+
+2025-10-23 20:37:12 POST data: Array
+(
+    [title] => Sample Property
+    [description] => 1
+    [property_type] => house
+    [availability_date] => 2025-11-08
+    [address] => Edelweiss St. Pembo
+    [city] => Taguig City
+    [state] => Metro Manila
+    [zip_code] => 1642
+    [bedrooms] => 1
+    [bathrooms] => 1
+    [square_feet] => 1
+    [rent_amount] => 1000
+    [deposit_amount] => 1000
+    [amenities] => Array
+        (
+            [0] => Wi-Fi
+            [1] => Air Conditioning
+            [2] => Parking
+            [3] => Laundry
+            [4] => Gym
+            [5] => Pool
+            [6] => Security
+            [7] => Pet Friendly
+            [8] => Furnished
+            [9] => Balcony
+        )
+
+    [add_property] => 1
+)
+
+2025-10-24 12:16:24 POST data: Array
+(
+    [title] => MJ Townhouses
+    [description] => 123
+    [property_type] => apartment
+    [availability_date] => 2025-10-27
+    [address] => H278+RC7, Metropolitan Ave, Santa Cruz, Makati City, 1205 Metro Manila
+    [city] => Makati
+    [state] => Metro Manila
+    [zip_code] => 1205
+    [bedrooms] => 1
+    [bathrooms] => 1
+    [square_feet] => 350
+    [rent_amount] => 15000
+    [deposit_amount] => 15000
+    [amenities] => Array
+        (
+            [0] => Wi-Fi
+            [1] => Parking
+            [2] => Security
+            [3] => Furnished
+            [4] => Balcony
+        )
+
+    [add_property] => 1
+)
+
+2025-10-24 12:17:53 POST data: Array
+(
+    [title] => Ecoville 
+    [description] => Townhouses
+    [property_type] => house
+    [availability_date] => 2025-10-25
+    [address] => H379+J36, Pasig, Metro Manila
+    [city] => Pasig
+    [state] => Metro Manila
+    [zip_code] => 1205
+    [bedrooms] => 2
+    [bathrooms] => 3
+    [square_feet] => 500
+    [rent_amount] => 15000
+    [deposit_amount] => 15000
+    [amenities] => Array
+        (
+            [0] => Wi-Fi
+            [1] => Air Conditioning
+            [2] => Parking
+            [3] => Laundry
+            [4] => Gym
+            [5] => Pool
+            [6] => Security
+            [7] => Pet Friendly
+            [8] => Furnished
+            [9] => Balcony
+        )
+
+    [add_property] => 1
+)
+
+2025-10-24 12:21:54 POST data: Array
+(
+    [title] => Villamonte 
+    [description] => Subdivision
+    [property_type] => room
+    [availability_date] => 2025-10-24
+    [address] => H278+RC7, Metropolitan Ave, Santa Cruz, Makati City, 1205 Metro Manila
+    [city] => Makati
+    [state] => Metro Manila
+    [zip_code] => 1205
+    [bedrooms] => 1
+    [bathrooms] => 1
+    [square_feet] => 150
+    [rent_amount] => 10000
+    [deposit_amount] => 10000
+    [amenities] => Array
+        (
+            [0] => Air Conditioning
+            [1] => Laundry
+            [2] => Pet Friendly
+        )
+
+    [add_property] => 1
+)
+
+2025-10-24 12:23:06 POST data: Array
+(
+    [title] => Popeyes
+    [description] => Commercial Building
+    [property_type] => commercial
+    [availability_date] => 2025-10-29
+    [address] => H278+RC7, Metropolitan Ave, Santa Cruz, Makati City, 1205 Metro Manila
+    [city] => Makati
+    [state] => Metro Manila
+    [zip_code] => 1205
+    [bedrooms] => 3
+    [bathrooms] => 2
+    [square_feet] => 500
+    [rent_amount] => 20000
+    [deposit_amount] => 20000
+    [amenities] => Array
+        (
+            [0] => Wi-Fi
+            [1] => Air Conditioning
+            [2] => Parking
+            [3] => Laundry
+            [4] => Gym
+            [5] => Pool
+            [6] => Security
+            [7] => Pet Friendly
+            [8] => Furnished
+            [9] => Balcony
+        )
+
+    [add_property] => 1
+)
+
+2025-10-24 12:31:59 POST data: Array
+(
+    [title] => 789
+    [description] => Apartments
+    [property_type] => apartment
+    [availability_date] => 2025-10-25
+    [address] => H278+RC7, Metropolitan Ave, Santa Cruz, Makati City, 1205 Metro Manila
+    [city] => Makati
+    [state] => Metro Manila
+    [zip_code] => 1205
+    [bedrooms] => 2
+    [bathrooms] => 2
+    [square_feet] => 700
+    [rent_amount] => 25000
+    [deposit_amount] => 25000
+    [amenities] => Array
+        (
+            [0] => Wi-Fi
+            [1] => Air Conditioning
+            [2] => Parking
+            [3] => Laundry
+            [4] => Gym
+            [5] => Pool
+            [6] => Security
+            [7] => Pet Friendly
+            [8] => Furnished
+            [9] => Balcony
+        )
+
+    [add_property] => 1
+)
+
+2025-10-24 17:25:18 POST data: Array
+(
+    [title] => Sample Property
+    [description] => This is a Property
+    [property_type] => commercial
+    [availability_date] => 2025-11-08
+    [address] => Edelweiss St. Pembo
+    [city] => Taguig City
+    [state] => Metro Manila
+    [zip_code] => 1642
+    [bedrooms] => 1
+    [bathrooms] => 1
+    [square_feet] => 1
+    [rent_amount] => 1
+    [deposit_amount] => 1
+    [amenities] => Array
+        (
+            [0] => Wi-Fi
+            [1] => Air Conditioning
+            [2] => Parking
+            [3] => Laundry
+            [4] => Gym
+            [5] => Pool
+            [6] => Security
+            [7] => Furnished
+            [8] => Balcony
+        )
+
+    [add_property] => 1
+)
+

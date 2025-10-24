@@ -1,0 +1,2 @@
+web: php -S 0.0.0.0:$PORT -t .
+ai: cd ai && python api_server.py

@@ -1,0 +1,28 @@
+{
+  "name": "homehub",
+  "version": "1.0.0",
+  "description": "Property Management System with AI-powered recommendations",
+  "main": "index.php",
+  "scripts": {
+    "start": "php -S localhost:8000 -t .",
+    "ai": "cd ai && python api_server.py",
+    "setup": "php simple_setup.php"
+  },
+  "keywords": [
+    "property-management",
+    "real-estate",
+    "php",
+    "mysql",
+    "ai",
+    "machine-learning"
+  ],
+  "author": "HomeHub Team",
+  "license": "MIT",
+  "engines": {
+    "php": ">=8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/homehub.git"
+  }
+}

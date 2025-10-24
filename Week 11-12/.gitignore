@@ -1,0 +1,73 @@
+# HomeHub - Property Management System
+
+## Repository Exclusions
+.git/
+.env
+.env.local
+.env.production
+*.log
+logs/
+cache/
+
+# XAMPP/Local Development
+xampp/
+ai_env/
+.vscode/
+.idea/
+
+# Operating System
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# AI Service
+ai/cache/*
+ai/logs/*
+ai/models/*.pkl
+ai/models/*.joblib
+
+# Uploads (exclude user uploads)
+uploads/properties/*
+!uploads/properties/.gitkeep
+
+# Debug files
+*_debug.log
+debug_*.html
+debug-*.php
+
+# Test files
+test_*.php
+test_*.html
+
+# Setup scripts (Windows specific)
+*.bat
+
+# Backup files
+*.sql.backup
+*.sql.bak

@@ -1,0 +1,13 @@
+# Railway Deployment Ignore
+.env
+.env.local
+.env.production
+*.log
+logs/
+cache/
+ai_env/
+ai/__pycache__/
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp

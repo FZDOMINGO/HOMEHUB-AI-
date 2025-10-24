@@ -1,0 +1,245 @@
+/* Add Property Page Specific Styles */
+.add-property-header {
+  margin-bottom: 30px;
+}
+
+.add-property-header h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.add-property-header p {
+  color: #666;
+  font-size: 16px;
+}
+
+.add-property-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form-section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.form-section h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group:last-child {
+  margin-bottom: 0;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #555;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #8b5cf6;
+  box-shadow: 0 0 0 2px rgba(139, 92, 246, 0.1);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Amenities grid */
+.amenities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 15px;
+}
+
+.amenity-item {
+  display: flex;
+  align-items: center;
+}
+
+.amenity-item input[type="checkbox"] {
+  width: auto;
+  margin-right: 8px;
+}
+
+/* Image upload styling */
+.image-upload-container {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.image-upload-container input[type="file"] {
+  position: absolute;
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.upload-btn {
+  display: inline-block;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: 1px dashed #aaa;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  width: 100%;
+}
+
+.upload-btn:hover {
+  background-color: #f0f0f0;
+  border-color: #8b5cf6;
+}
+
+.upload-btn i {
+  margin-right: 8px;
+}
+
+.image-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.image-preview .preview-item {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.image-preview .preview-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-preview .preview-item .remove-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(255, 0, 0, 0.6);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.btn-cancel {
+  padding: 12px 25px;
+  border-radius: 8px;
+  background-color: #f3f4f6;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s;
+  text-align: center;
+}
+
+.btn-cancel:hover {
+  background-color: #e5e7eb;
+}
+
+.btn-submit {
+  padding: 12px 25px;
+  border-radius: 8px;
+  background-color: #8b5cf6;
+  color: white;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+  background-color: #7c3aed;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  
+  .amenities-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+  
+  .form-actions {
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+  
+  .btn-cancel,
+  .btn-submit {
+    width: 100%; 
+  }
+}
+
+@media (max-width: 480px) {
+  .form-section {
+    padding: 15px;
+  }
+  
+  .add-property-header h1 {
+    font-size: 24px;
+  }
+  
+  .amenities-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
