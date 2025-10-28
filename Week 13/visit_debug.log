@@ -1,0 +1,90 @@
+2025-10-14 19:18:25 - Starting process visit request with data: Array
+(
+    [id] => 3
+    [action] => approve
+)
+
+2025-10-14 19:18:28 - Starting process visit request with data: Array
+(
+    [id] => 1
+    [action] => reject
+)
+
+2025-10-14 19:18:31 - Starting process visit request with data: Array
+(
+    [id] => 2
+    [action] => reject
+)
+
+2025-10-14 19:20:40 - Starting process visit request with data: Array
+(
+    [id] => 4
+    [action] => reject
+)
+
+2025-10-15 08:07:41 - Starting process visit request with data: Array
+(
+    [id] => 5
+    [action] => reject
+)
+
+2025-10-20 17:53:17 - Starting process visit request with data: Array
+(
+    [id] => 3
+    [action] => cancel
+)
+
+2025-10-20 18:04:31 - Starting process visit request with data: Array
+(
+    [id] => 5
+    [action] => approve
+)
+
+2025-10-20 18:05:03 - Starting process visit request with data: Array
+(
+    [id] => 6
+    [action] => reject
+)
+
+2025-10-20 18:06:22 - Starting process visit request with data: Array
+(
+    [id] => 5
+    [action] => cancel
+)
+
+2025-10-20 19:33:10 - Starting process visit request with data: Array
+(
+    [id] => 7
+    [action] => approve
+)
+
+2025-10-20 19:39:06 - Starting process visit request with data: Array
+(
+    [id] => 8
+    [action] => reject
+)
+
+2025-10-23 18:39:11 - Starting process visit request with data: Array
+(
+    [id] => 9
+    [action] => approve
+)
+
+2025-10-23 20:39:09 - Starting process visit request with data: Array
+(
+    [id] => 10
+    [action] => approve
+)
+
+2025-10-27 16:49:23 - Starting process visit request with data: Array
+(
+    [id] => 16
+    [action] => reject
+)
+
+2025-10-27 16:53:43 - Starting process visit request with data: Array
+(
+    [id] => 18
+    [action] => approve
+)
+

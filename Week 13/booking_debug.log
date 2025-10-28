@@ -1,0 +1,399 @@
+2025-10-14 18:52:32 - Request received. POST data: Array
+(
+    [property_id] => 11
+    [visit_date] => 2025-10-24
+    [visit_time] => 11:00
+    [message] => 1
+)
+
+2025-10-14 18:52:32 - DB connection established
+2025-10-14 18:52:32 - Inputs: property_id=11, visit_date=2025-10-24, visit_time=11:00
+2025-10-14 18:52:32 - Visit datetime: 2025-10-24 11:00:00
+2025-10-14 18:52:32 - Found tenant ID: 1
+2025-10-14 18:52:32 - Exception: Unknown column 'request_date' in 'field list'
+2025-10-14 18:55:46 - Request received. POST data: Array
+(
+    [property_id] => 11
+    [visit_date] => 2025-10-24
+    [visit_time] => 11:00
+    [message] => 1
+)
+
+2025-10-14 18:55:46 - DB connection established
+2025-10-14 18:55:46 - Inputs: property_id=11, visit_date=2025-10-24, visit_time=11:00
+2025-10-14 18:55:46 - Visit datetime: 2025-10-24 11:00:00
+2025-10-14 18:55:46 - Found tenant ID: 1
+2025-10-14 18:55:46 - Success: Booking request created
+2025-10-14 18:55:46 - Notification created for landlord
+2025-10-14 18:57:14 - Request received. POST data: Array
+(
+    [property_id] => 11
+    [visit_date] => 2025-11-08
+    [visit_time] => 16:00
+    [message] => TITE
+)
+
+2025-10-14 18:57:14 - DB connection established
+2025-10-14 18:57:14 - Inputs: property_id=11, visit_date=2025-11-08, visit_time=16:00
+2025-10-14 18:57:14 - Visit datetime: 2025-11-08 16:00:00
+2025-10-14 18:57:14 - Found tenant ID: 1
+2025-10-14 18:57:14 - Success: Booking request created
+2025-10-14 18:57:14 - Notification created for landlord
+2025-10-14 19:04:03 - Request received. POST data: Array
+(
+    [property_id] => 11
+    [visit_date] => 2025-10-24
+    [visit_time] => 13:00
+    [message] => 1
+)
+
+2025-10-14 19:04:03 - DB connection established
+2025-10-14 19:04:03 - Inputs: property_id=11, visit_date=2025-10-24, visit_time=13:00
+2025-10-14 19:04:03 - Visit datetime: 2025-10-24 13:00:00
+2025-10-14 19:04:03 - Found tenant ID: 1
+2025-10-14 19:04:03 - Success: Booking request created
+2025-10-14 19:04:03 - Notification created for landlord
+2025-10-14 19:20:22 - Request received. POST data: Array
+(
+    [property_id] => 11
+    [visit_date] => 2025-11-08
+    [visit_time] => 09:00
+    [message] => 1
+)
+
+2025-10-14 19:20:22 - DB connection established
+2025-10-14 19:20:22 - Inputs: property_id=11, visit_date=2025-11-08, visit_time=09:00
+2025-10-14 19:20:22 - Visit datetime: 2025-11-08 09:00:00
+2025-10-14 19:20:22 - Found tenant ID: 1
+2025-10-14 19:20:22 - Success: Booking request created
+2025-10-14 19:20:22 - Notification created for landlord
+2025-10-15 08:06:56 - Request received. POST data: Array
+(
+    [property_id] => 12
+    [visit_date] => 2025-11-01
+    [visit_time] => 16:00
+    [message] => sdrftgyhbjuikl
+)
+
+2025-10-15 08:06:56 - DB connection established
+2025-10-15 08:06:56 - Inputs: property_id=12, visit_date=2025-11-01, visit_time=16:00
+2025-10-15 08:06:56 - Visit datetime: 2025-11-01 16:00:00
+2025-10-15 08:06:56 - Found tenant ID: 1
+2025-10-15 08:06:56 - Success: Booking request created
+2025-10-15 08:06:56 - Notification created for landlord
+2025-10-20 17:58:22 - Request received. POST data: Array
+(
+    [property_id] => 11
+    [visit_date] => 2025-10-23
+    [visit_time] => 13:00
+    [message] => 1
+)
+
+2025-10-20 17:58:22 - DB connection established
+2025-10-20 17:58:22 - Inputs: property_id=11, visit_date=2025-10-23, visit_time=13:00
+2025-10-20 17:58:22 - Visit datetime: 2025-10-23 13:00:00
+2025-10-20 17:58:22 - Found tenant ID: 1
+2025-10-20 17:58:22 - Success: Booking request created
+2025-10-20 17:58:22 - Notification created for landlord
+2025-10-20 18:01:32 - Request received. POST data: Array
+(
+    [property_id] => 11
+    [visit_date] => 2025-11-08
+    [visit_time] => 11:00
+    [message] => 1
+)
+
+2025-10-20 18:01:32 - DB connection established
+2025-10-20 18:01:32 - Inputs: property_id=11, visit_date=2025-11-08, visit_time=11:00
+2025-10-20 18:01:32 - Visit datetime: 2025-11-08 11:00:00
+2025-10-20 18:01:32 - Found tenant ID: 1
+2025-10-20 18:01:32 - Success: Booking request created
+2025-10-20 18:01:32 - Notification created for landlord
+2025-10-20 19:31:52 - Request received. POST data: Array
+(
+    [property_id] => 12
+    [visit_date] => 2025-10-22
+    [visit_time] => 09:00
+    [message] => CAN I SEE THIS PROPERTY?
+)
+
+2025-10-20 19:31:52 - DB connection established
+2025-10-20 19:31:52 - Inputs: property_id=12, visit_date=2025-10-22, visit_time=09:00
+2025-10-20 19:31:52 - Visit datetime: 2025-10-22 09:00:00
+2025-10-20 19:31:52 - Found tenant ID: 1
+2025-10-20 19:31:52 - Success: Booking request created
+2025-10-20 19:31:52 - Notification created for landlord
+2025-10-20 19:37:28 - Request received. POST data: Array
+(
+    [property_id] => 13
+    [visit_date] => 2025-11-08
+    [visit_time] => 09:00
+    [message] => HI I WANT TO VISIT
+)
+
+2025-10-20 19:37:28 - DB connection established
+2025-10-20 19:37:28 - Inputs: property_id=13, visit_date=2025-11-08, visit_time=09:00
+2025-10-20 19:37:28 - Visit datetime: 2025-11-08 09:00:00
+2025-10-20 19:37:28 - Found tenant ID: 1
+2025-10-20 19:37:28 - Success: Booking request created
+2025-10-20 19:37:28 - Notification created for landlord
+2025-10-23 18:38:26 - Request received. POST data: Array
+(
+    [property_id] => 13
+    [visit_date] => 2025-10-29
+    [visit_time] => 13:00
+    [message] => WASSUP
+)
+
+2025-10-23 18:38:26 - DB connection established
+2025-10-23 18:38:26 - Inputs: property_id=13, visit_date=2025-10-29, visit_time=13:00
+2025-10-23 18:38:26 - Visit datetime: 2025-10-29 13:00:00
+2025-10-23 18:38:26 - Found tenant ID: 1
+2025-10-23 18:38:26 - Success: Booking request created
+2025-10-23 18:38:26 - Notification created for landlord
+2025-10-23 20:38:14 - Request received. POST data: Array
+(
+    [property_id] => 14
+    [visit_date] => 2025-10-25
+    [visit_time] => 09:00
+    [message] => Can i visit?
+)
+
+2025-10-23 20:38:14 - DB connection established
+2025-10-23 20:38:14 - Inputs: property_id=14, visit_date=2025-10-25, visit_time=09:00
+2025-10-23 20:38:14 - Visit datetime: 2025-10-25 09:00:00
+2025-10-23 20:38:14 - Found tenant ID: 1
+2025-10-23 20:38:14 - Success: Booking request created
+2025-10-23 20:38:14 - Notification created for landlord
+2025-10-27 07:55:02 - Request received. POST data: Array
+(
+    [property_id] => 20
+    [visit_date] => 2025-10-31
+    [visit_time] => 09:00
+    [message] => I want to Visit this
+)
+
+2025-10-27 07:55:02 - DB connection established
+2025-10-27 07:55:02 - Inputs: property_id=20, visit_date=2025-10-31, visit_time=09:00
+2025-10-27 07:55:02 - Visit datetime: 2025-10-31 09:00:00
+2025-10-27 07:55:02 - Found tenant ID: 1
+2025-10-27 07:55:02 - Success: Booking request created
+2025-10-27 07:55:02 - Notification created for landlord
+2025-10-27 07:58:52 - Request received. POST data: Array
+(
+    [property_id] => 20
+    [visit_date] => 2025-11-01
+    [visit_time] => 10:00
+    [message] => e
+)
+
+2025-10-27 07:58:52 - DB connection established
+2025-10-27 07:58:52 - Inputs: property_id=20, visit_date=2025-11-01, visit_time=10:00
+2025-10-27 07:58:52 - Visit datetime: 2025-11-01 10:00:00
+2025-10-27 07:58:52 - Found tenant ID: 1
+2025-10-27 07:58:52 - Success: Booking request created
+2025-10-27 07:58:52 - Notification created for landlord
+2025-10-27 14:45:34 - Request received. POST data: Array
+(
+    [property_id] => 21
+    [visit_date] => 2025-10-28
+    [visit_time] => 09:00
+    [message] => hi 
+)
+
+2025-10-27 14:45:34 - DB connection established
+2025-10-27 14:45:34 - Inputs: property_id=21, visit_date=2025-10-28, visit_time=09:00
+2025-10-27 14:45:34 - Visit datetime: 2025-10-28 09:00:00
+2025-10-27 14:45:34 - Found tenant ID: 1
+2025-10-27 14:45:34 - Success: Booking request created
+2025-10-27 14:45:34 - Notification created for landlord
+2025-10-27 14:51:32 - Request received. POST data: Array
+(
+    [property_id] => 21
+    [visit_date] => 2025-10-29
+    [visit_time] => 11:00
+    [message] => 
+)
+
+2025-10-27 14:51:32 - DB connection established
+2025-10-27 14:51:32 - Inputs: property_id=21, visit_date=2025-10-29, visit_time=11:00
+2025-10-27 14:51:32 - Visit datetime: 2025-10-29 11:00:00
+2025-10-27 14:51:32 - Found tenant ID: 1
+2025-10-27 14:51:32 - Success: Booking request created
+2025-10-27 14:51:32 - Notification created for landlord
+2025-10-27 15:05:53 - CLEAN FILE - Starting email send
+Landlord Email: zachdomingojavellana@gmail.com
+Landlord Name: Francis Zachary Domingo
+Tenant Name: Tenant Profile
+Property: 7894561
+Move-in Date: 2025-10-28
+Lease Duration: 12
+Reservation ID: 11
+Email send result: SUCCESS
+---
+2025-10-27 15:47:58 - CLEAN FILE - Starting email send
+Landlord Email: zachdomingojavellana@gmail.com
+Landlord Name: Francis Zachary Domingo
+Tenant Name: Tenant Profile
+Property: 7894561
+Move-in Date: 2025-10-28
+Lease Duration: 12
+Reservation ID: 12
+Email send result: SUCCESS
+---
+2025-10-27 15:48:21 - Request received. POST data: Array
+(
+    [property_id] => 21
+    [visit_date] => 2025-10-29
+    [visit_time] => 10:00
+    [message] => 
+)
+
+2025-10-27 15:48:21 - DB connection established
+2025-10-27 15:48:21 - Inputs: property_id=21, visit_date=2025-10-29, visit_time=10:00
+2025-10-27 15:48:21 - Visit datetime: 2025-10-29 10:00:00
+2025-10-27 15:48:21 - Found tenant ID: 1
+2025-10-27 15:48:21 - Success: Booking request created
+2025-10-27 15:48:21 - Notification created for landlord
+2025-10-27 15:55:31 - Request received. POST data: Array
+(
+    [property_id] => 21
+    [visit_date] => 2025-10-28
+    [visit_time] => 15:00
+    [message] => hello
+)
+
+2025-10-27 15:55:31 - DB connection established
+2025-10-27 15:55:31 - Inputs: property_id=21, visit_date=2025-10-28, visit_time=15:00
+2025-10-27 15:55:31 - Visit datetime: 2025-10-28 15:00:00
+2025-10-27 15:55:31 - Found tenant ID: 1
+2025-10-27 15:55:31 - Success: Booking request created, ID: 16
+2025-10-27 15:55:31 - Notification created for landlord
+2025-10-27 15:59:27 - CLEAN FILE - Starting email send
+Landlord Email: zachdomingojavellana@gmail.com
+Landlord Name: Francis Zachary Domingo
+Tenant Name: goodplayer 
+Property: 7894561
+Move-in Date: 2025-10-29
+Lease Duration: 12
+Reservation ID: 13
+Email send result: SUCCESS
+---
+2025-10-27 16:13:44 - CLEAN FILE - Starting email send
+Landlord Email: zachdomingojavellana@gmail.com
+Landlord Name: Francis Zachary Domingo
+Tenant Name: goods 
+Property: 7894561
+Move-in Date: 2025-10-28
+Lease Duration: 12
+Reservation ID: 14
+Email send result: SUCCESS
+---
+2025-10-27 16:27:02 - CLEAN FILE - Starting email send
+Landlord Email: zachdomingojavellana@gmail.com
+Landlord Name: Francis Zachary Domingo
+Tenant Name: goods 
+Property: 7894561
+Move-in Date: 2025-10-28
+Lease Duration: 12
+Reservation ID: 15
+Email send result: SUCCESS
+---
+2025-10-27 16:41:38 - CLEAN FILE - Starting email send
+Landlord Email: zachdomingojavellana@gmail.com
+Landlord Name: Francis Zachary Domingo
+Tenant Name: goods 
+Property: 7894561
+Move-in Date: 2025-10-28
+Lease Duration: 12
+Reservation ID: 16
+Email send result: SUCCESS
+---
+2025-10-27 16:44:16 - CLEAN FILE - Starting email send
+Landlord Email: zachdomingojavellana@gmail.com
+Landlord Name: Francis Zachary Domingo
+Tenant Name: goods 
+Property: 123
+Move-in Date: 2025-10-30
+Lease Duration: 12
+Reservation ID: 17
+Email send result: SUCCESS
+---
+2025-10-27 16:46:00 - Request received. POST data: Array
+(
+    [property_id] => 21
+    [visit_date] => 2025-10-29
+    [visit_time] => 10:00
+    [message] => 
+)
+
+2025-10-27 16:46:00 - DB connection established
+2025-10-27 16:46:00 - Inputs: property_id=21, visit_date=2025-10-29, visit_time=10:00
+2025-10-27 16:46:00 - Visit datetime: 2025-10-29 10:00:00
+2025-10-27 16:46:00 - Found tenant ID: 4
+2025-10-27 16:46:00 - Success: Booking request created, ID: 17
+2025-10-27 16:46:00 - Notification created for landlord
+2025-10-27 16:53:08 - Request received. POST data: Array
+(
+    [property_id] => 21
+    [visit_date] => 2025-10-28
+    [visit_time] => 09:00
+    [message] => 
+)
+
+2025-10-27 16:53:08 - DB connection established
+2025-10-27 16:53:08 - Inputs: property_id=21, visit_date=2025-10-28, visit_time=09:00
+2025-10-27 16:53:08 - Visit datetime: 2025-10-28 09:00:00
+2025-10-27 16:53:08 - Found tenant ID: 4
+2025-10-27 16:53:08 - Success: Booking request created, ID: 18
+2025-10-27 16:53:08 - Notification created for landlord
+2025-10-27 16:55:27 - CLEAN FILE - Starting email send
+Landlord Email: zachdomingojavellana@gmail.com
+Landlord Name: Francis Zachary Domingo
+Tenant Name: goods 
+Property: 7894561
+Move-in Date: 2025-10-28
+Lease Duration: 12
+Reservation ID: 18
+Email send result: SUCCESS
+---
+2025-10-27 16:57:43 - CLEAN FILE - Starting email send
+Landlord Email: zachdomingojavellana@gmail.com
+Landlord Name: Francis Zachary Domingo
+Tenant Name: goods 
+Property: 123
+Move-in Date: 2025-10-28
+Lease Duration: 12
+Reservation ID: 19
+Email send result: SUCCESS
+---
+2025-10-27 19:08:35 - CLEAN FILE - Starting email send
+Landlord Email: zachdomingojavellana@gmail.com
+Landlord Name: Francis Zachary Domingo
+Tenant Name: goods 
+Property: 123
+Move-in Date: 2025-10-29
+Lease Duration: 12
+Reservation ID: 20
+Email send result: SUCCESS
+---
+2025-10-27 21:51:49 - CLEAN FILE - Starting email send
+Landlord Email: zachdomingojavellana@gmail.com
+Landlord Name: Francis Zachary Domingo
+Tenant Name: goods 
+Property: 123
+Move-in Date: 2025-10-29
+Lease Duration: 12
+Reservation ID: 21
+Email send result: SUCCESS
+---
+2025-10-27 22:03:36 - CLEAN FILE - Starting email send
+Landlord Email: zachdomingojavellana@gmail.com
+Landlord Name: Francis Zachary Domingo
+Tenant Name: goods 
+Property: 123
+Move-in Date: 2025-10-29
+Lease Duration: 12
+Reservation ID: 22
+Email send result: SUCCESS
+---

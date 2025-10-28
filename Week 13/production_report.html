@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeHub - Production Deployment Report</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .header p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+        .content {
+            padding: 40px;
+        }
+        .critical-alert {
+            background: #fee;
+            border-left: 5px solid #f00;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 5px;
+        }
+        .critical-alert h2 {
+            color: #c00;
+            margin-bottom: 10px;
+        }
+        .issue-card {
+            background: #f9f9f9;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .issue-card.critical {
+            border-color: #f44336;
+            background: #ffebee;
+        }
+        .issue-card.warning {
+            border-color: #ff9800;
+            background: #fff3e0;
+        }
+        .severity-badge {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+        .severity-badge.critical {
+            background: #f44336;
+            color: white;
+        }
+        .severity-badge.warning {
+            background: #ff9800;
+            color: white;
+        }
+        .issue-card h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 24px;
+            padding-right: 120px;
+        }
+        .issue-card .problem {
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+            border-left: 3px solid #f44336;
+        }
+        .issue-card .solution {
+            background: #e8f5e9;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+            border-left: 3px solid #4caf50;
+        }
+        .code-block {
+            background: #1e1e1e;
+            color: #d4d4d4;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            overflow-x: auto;
+            margin: 10px 0;
+        }
+        .code-block .comment { color: #6a9955; }
+        .code-block .keyword { color: #569cd6; }
+        .code-block .string { color: #ce9178; }
+        .quick-fix {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 8px;
+            margin: 30px 0;
+            text-align: center;
+        }
+        .quick-fix h2 {
+            margin-bottom: 20px;
+        }
+        .quick-fix .command {
+            background: rgba(0,0,0,0.3);
+            padding: 20px;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            font-size: 18px;
+            margin: 20px 0;
+        }
+        .checklist {
+            background: #f5f5f5;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .checklist h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        .checklist-item {
+            padding: 10px;
+            margin: 5px 0;
+            background: white;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+        }
+        .checklist-item input[type="checkbox"] {
+            margin-right: 10px;
+            transform: scale(1.5);
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .stat-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 48px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .stat-label {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        .files-list {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+        .files-list li {
+            padding: 5px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 5px;
+            transition: all 0.3s;
+        }
+        .btn:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        .footer {
+            background: #f5f5f5;
+            padding: 30px;
+            text-align: center;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚨 HomeHub Production Deployment Report</h1>
+            <p>Critical Issues Analysis & Fix Guide</p>
+        </div>
+
+        <div class="content">
+            <!-- Critical Alert -->
+            <div class="critical-alert">
+                <h2>⚠️ ATTENTION REQUIRED</h2>
+                <p><strong>Your application has 3 CRITICAL issues that will prevent it from working when uploaded to a live web service.</strong></p>
+                <p>These issues MUST be fixed before deployment. See details below.</p>
+            </div>
+
+            <!-- Stats -->
+            <div class="stats">
+                <div class="stat-box">
+                    <div class="stat-label">🔴 Critical Issues</div>
+                    <div class="stat-number">3</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">⚠️ Warnings</div>
+                    <div class="stat-number">4</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">⏱️ Time to Fix</div>
+                    <div class="stat-number">10<small style="font-size:20px">min</small></div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">📁 Files Affected</div>
+                    <div class="stat-number">16+</div>
+                </div>
+            </div>
+
+            <!-- Quick Fix Solution -->
+            <div class="quick-fix">
+                <h2>🔧 Automated Fix Available!</h2>
+                <p>Run this command to automatically fix most issues:</p>
+                <div class="command">
+                    php fix_production_issues.php https://yourdomain.com
+                </div>
+                <p style="margin-top: 10px; font-size: 14px;">Replace <code>https://yourdomain.com</code> with your actual domain</p>
+            </div>
+
+            <!-- Issue #1 -->
+            <div class="issue-card critical">
+                <span class="severity-badge critical">🔴 Critical</span>
+                <h3>Issue #1: Hardcoded Localhost URLs</h3>
+                
+                <div class="problem">
+                    <strong>Problem:</strong> Email templates contain <code>http://localhost/HomeHub/</code> URLs that won't work in production.
+                    <br><strong>Impact:</strong> All email links will result in 404 errors for users.
+                </div>
+
+                <p><strong>Affected Files:</strong></p>
+                <ul class="files-list">
+                    <li>📄 includes/email_functions.php (8 occurrences)</li>
+                    <li>📄 admin/email-preview.php (7 occurrences)</li>
+                    <li>📄 api/test-email.php (1 occurrence)</li>
+                </ul>
+
+                <p><strong>Example of broken code:</strong></p>
+                <div class="code-block">
+<span class="comment">// This will NOT work in production:</span>
+<span class="string">&lt;a href="http://localhost/HomeHub/landlord/bookings.php"&gt;</span>View Request<span class="string">&lt;/a&gt;</span>
+
+<span class="comment">// Should be:</span>
+<span class="string">&lt;a href="https://yourdomain.com/landlord/bookings.php"&gt;</span>View Request<span class="string">&lt;/a&gt;</span>
+                </div>
+
+                <div class="solution">
+                    <strong>✅ Solution:</strong> Run the automated fixer script or manually find/replace all instances of <code>http://localhost/HomeHub/</code> with your production domain.
+                </div>
+            </div>
+
+            <!-- Issue #2 -->
+            <div class="issue-card critical">
+                <span class="severity-badge critical">🔴 Critical</span>
+                <h3>Issue #2: Database Configuration</h3>
+                
+                <div class="problem">
+                    <strong>Problem:</strong> <code>config/db_connect.php</code> uses localhost MySQL credentials.
+                    <br><strong>Impact:</strong> Website will show "Database connection failed" and won't load.
+                </div>
+
+                <p><strong>Current (Local) Configuration:</strong></p>
+                <div class="code-block">
+<span class="keyword">define</span>(<span class="string">'DB_SERVER'</span>, <span class="string">'localhost'</span>);
+<span class="keyword">define</span>(<span class="string">'DB_USERNAME'</span>, <span class="string">'root'</span>);
+<span class="keyword">define</span>(<span class="string">'DB_PASSWORD'</span>, <span class="string">''</span>);  <span class="comment">// Empty password won't work!</span>
+<span class="keyword">define</span>(<span class="string">'DB_NAME'</span>, <span class="string">'homehub'</span>);
+                </div>
+
+                <div class="solution">
+                    <strong>✅ Solution:</strong>
+                    <ol style="margin-left: 20px; margin-top: 10px;">
+                        <li>Get database credentials from your hosting provider</li>
+                        <li>Update <code>config/db_connect.php</code> with production values</li>
+                        <li>Export database from localhost phpMyAdmin</li>
+                        <li>Import to production database</li>
+                    </ol>
+                </div>
+            </div>
+
+            <!-- Issue #3 -->
+            <div class="issue-card critical">
+                <span class="severity-badge critical">🔴 Critical</span>
+                <h3>Issue #3: Test Files Exposure</h3>
+                
+                <div class="problem">
+                    <strong>Problem:</strong> 70+ test/debug files in root directory expose sensitive system information.
+                    <br><strong>Impact:</strong> Security vulnerability - hackers can see your database structure and system details.
+                </div>
+
+                <p><strong>Examples of sensitive files:</strong></p>
+                <ul class="files-list">
+                    <li>🚫 test_database.php - Shows database structure</li>
+                    <li>🚫 check_users_structure.php - Exposes user data</li>
+                    <li>🚫 test_admin_login.php - Security risk</li>
+                    <li>🚫 debug_*.php - Shows debugging information</li>
+                    <li>🚫 And 60+ more test files...</li>
+                </ul>
+
+                <div class="solution">
+                    <strong>✅ Solution:</strong> Delete these files before uploading to production, or restrict access using .htaccess
+                </div>
+            </div>
+
+            <!-- Issue #4 -->
+            <div class="issue-card warning">
+                <span class="severity-badge warning">⚠️ Warning</span>
+                <h3>Issue #4: Deprecated PHP Code</h3>
+                
+                <div class="problem">
+                    <strong>Problem:</strong> 9 files use <code>FILTER_SANITIZE_STRING</code> which is deprecated in PHP 8.1+
+                    <br><strong>Impact:</strong> PHP warnings displayed to users (unprofessional).
+                </div>
+
+                <p><strong>Affected Files:</strong></p>
+                <ul class="files-list">
+                    <li>📄 process-booking.php</li>
+                    <li>📄 process-reservation-clean.php</li>
+                    <li>📄 process-reservation.php</li>
+                    <li>📄 process-visit.php</li>
+                    <li>📄 tenant/profile.php</li>
+                </ul>
+
+                <p><strong>Fix example:</strong></p>
+                <div class="code-block">
+<span class="comment">// DEPRECATED (PHP 8.1+):</span>
+$name = <span class="keyword">filter_var</span>($_POST[<span class="string">'name'</span>], FILTER_SANITIZE_STRING);
+
+<span class="comment">// RECOMMENDED:</span>
+$name = <span class="keyword">htmlspecialchars</span>($_POST[<span class="string">'name'</span>] ?? <span class="string">''</span>, ENT_QUOTES, <span class="string">'UTF-8'</span>);
+                </div>
+
+                <div class="solution">
+                    <strong>✅ Solution:</strong> The automated fixer script handles this automatically.
+                </div>
+            </div>
+
+            <!-- Deployment Checklist -->
+            <div class="checklist">
+                <h3>📋 Deployment Checklist</h3>
+                
+                <div class="checklist-item">
+                    <input type="checkbox" id="check1">
+                    <label for="check1">Run <code>php fix_production_issues.php https://yourdomain.com</code></label>
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox" id="check2">
+                    <label for="check2">Update <code>config/db_connect.php</code> with production database credentials</label>
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox" id="check3">
+                    <label for="check3">Export database from phpMyAdmin</label>
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox" id="check4">
+                    <label for="check4">Delete test files or restrict access</label>
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox" id="check5">
+                    <label for="check5">Upload all files to production server</label>
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox" id="check6">
+                    <label for="check6">Import database to production</label>
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox" id="check7">
+                    <label for="check7">Test homepage loads</label>
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox" id="check8">
+                    <label for="check8">Test user registration & login</label>
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox" id="check9">
+                    <label for="check9">Configure email SMTP settings in admin panel</label>
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox" id="check10">
+                    <label for="check10">Test email notifications</label>
+                </div>
+            </div>
+
+            <!-- Resources -->
+            <div style="text-align: center; margin: 40px 0;">
+                <h2 style="margin-bottom: 20px;">📚 Helpful Resources Created</h2>
+                <a href="CRITICAL_ISSUES_REPORT.md" class="btn">📄 Critical Issues Report</a>
+                <a href="PRODUCTION_DEPLOYMENT_GUIDE.md" class="btn">📖 Full Deployment Guide</a>
+                <a href="fix_production_issues.php" class="btn">🔧 Automated Fixer Script</a>
+                <a href="production_diagnostic.php" class="btn">🔍 Diagnostic Tool</a>
+            </div>
+
+            <!-- Next Steps -->
+            <div style="background: #e3f2fd; padding: 30px; border-radius: 8px; margin: 20px 0;">
+                <h3 style="color: #1976d2; margin-bottom: 15px;">🚀 Next Steps</h3>
+                <ol style="margin-left: 20px; line-height: 2;">
+                    <li><strong>Run the fixer:</strong> <code>php fix_production_issues.php https://yourdomain.com</code></li>
+                    <li><strong>Update database config:</strong> Edit <code>config/db_connect.php</code></li>
+                    <li><strong>Delete test files:</strong> Remove test_*.php, check_*.php, debug_*.php</li>
+                    <li><strong>Upload files:</strong> Use FTP/hosting control panel</li>
+                    <li><strong>Import database:</strong> Via hosting phpMyAdmin</li>
+                    <li><strong>Test everything:</strong> Homepage, login, properties, emails</li>
+                </ol>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <p><strong>HomeHub Production Deployment Diagnostic</strong></p>
+            <p>Generated: <?php echo date('F j, Y g:i A'); ?></p>
+            <p style="margin-top: 10px; font-size: 14px;">
+                For detailed instructions, see <strong>PRODUCTION_DEPLOYMENT_GUIDE.md</strong>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // Save checkbox state
+        document.querySelectorAll('.checklist-item input[type="checkbox"]').forEach(checkbox => {
+            checkbox.checked = localStorage.getItem(checkbox.id) === 'true';
+            checkbox.addEventListener('change', function() {
+                localStorage.setItem(this.id, this.checked);
+            });
+        });
+    </script>
+</body>
+</html>
