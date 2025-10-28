@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register - HomeHub AI</title>
+  <link rel="stylesheet" href="register.css">
+</head>
+<body>
+  <section class="register-page">
+    <div class="register-header">
+      <div class="logo-container">
+        <img src="../assets/homehublogo.jpg" alt="HomeHub AI Logo" class="logo-image">
+      </div>
+    </div>
+
+    <div class="role-selection">
+      <button type="button" class="role-card active" id="tenant-role">
+        <span class="role-emoji">🏠</span>
+        <div class="role-content">
+          <h3>I am a Tenant</h3>
+          <p>Looking for a place to rent</p>
+        </div>
+      </button>
+      <button type="button" class="role-card" id="landlord-role">
+        <span class="role-emoji">🏢</span>
+        <div class="role-content">
+          <h3>I am a Landlord</h3>
+          <p>I have properties to rent</p>
+        </div>
+      </button>
+    </div>
+
+    <p class="signup-message" id="signup-message">Please create your tenant account.</p>
+
+    <form class="register-form" id="registerForm">
+      <div class="form-group">
+        <label for="fullName">Full Name</label>
+        <input type="text" id="fullName" placeholder="Enter your full name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Enter your email address" required />
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Create a password" required />
+      </div>
+
+      <div class="form-group">
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" id="confirmPassword" placeholder="Confirm your password" required />
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" placeholder="Enter your phone number" required />
+      </div>
+
+      <div class="form-options">
+        <label class="terms-checkbox">
+          <input type="checkbox" id="terms" required>
+          <span>I agree to the <a href="#" class="forgot-link">Terms & Privacy</a></span>
+        </label>
+      </div>
+
+      <button type="submit" class="signup-btn" id="signup-btn">Sign up as Tenant</button>
+      
+      <div id="register-error" class="error-message"></div>
+    </form>
+
+    <div class="divider">
+      <span>or continue with</span>
+    </div>
+
+    <div class="social-buttons">
+      <button type="button" class="social-btn">Google</button>
+      <button type="button" class="social-btn wide">Continue without an account</button>
+      <button type="button" class="social-btn">Facebook</button>
+    </div>
+
+    <div class="login-link">
+      <p>Already have an account? <a href="login.html" class="forgot-link">Sign In</a></p>
+    </div>
+  </section>
+
+  <script src="register.js"></script>
+</body>
+</html>
