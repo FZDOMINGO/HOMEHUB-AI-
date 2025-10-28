@@ -1,0 +1,610 @@
+2025-10-14 18:55:57 POST data: Array
+(
+    [property_id] => 11
+    [landlord_id] => 1
+    [subject] => wassup
+    [contact_message] => wassup
+)
+
+2025-10-14 18:55:57 Messages table columns: Array
+(
+    [0] => id
+    [1] => tenant_id
+    [2] => landlord_id
+    [3] => property_id
+    [4] => sender_id
+    [5] => receiver_id
+    [6] => message_text
+    [7] => sent_at
+    [8] => read_at
+    [9] => related_property_id
+)
+
+2025-10-14 18:55:57 Exception: Unknown column 'subject' in 'field list'
+2025-10-14 18:57:20 POST data: Array
+(
+    [property_id] => 11
+    [landlord_id] => 1
+    [subject] => TITE
+    [contact_message] => TITE
+)
+
+2025-10-14 18:57:20 Messages table columns: Array
+(
+    [0] => id
+    [1] => tenant_id
+    [2] => landlord_id
+    [3] => property_id
+    [4] => sender_id
+    [5] => receiver_id
+    [6] => message_text
+    [7] => sent_at
+    [8] => read_at
+    [9] => related_property_id
+)
+
+2025-10-14 18:57:20 Exception: Unknown column 'subject' in 'field list'
+2025-10-14 18:58:34 POST data: Array
+(
+    [property_id] => 11
+    [landlord_id] => 1
+    [subject] => 1
+    [contact_message] => 1
+)
+
+2025-10-14 18:58:34 Messages table columns: Array
+(
+    [0] => id
+    [1] => tenant_id
+    [2] => landlord_id
+    [3] => property_id
+    [4] => sender_id
+    [5] => receiver_id
+    [6] => message_text
+    [7] => sent_at
+    [8] => read_at
+    [9] => related_property_id
+)
+
+2025-10-14 18:58:34 Exception: Unknown column 'subject' in 'field list'
+2025-10-14 19:03:52 - Starting message process
+2025-10-14 19:03:52 - Messages table structure: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => tenant_id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => MUL
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => landlord_id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => MUL
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => property_id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => subject
+            [Type] => varchar(255)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [5] => Array
+        (
+            [Field] => sender_id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => MUL
+            [Default] => 
+            [Extra] => 
+        )
+
+    [6] => Array
+        (
+            [Field] => receiver_id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => MUL
+            [Default] => 
+            [Extra] => 
+        )
+
+    [7] => Array
+        (
+            [Field] => message_text
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [8] => Array
+        (
+            [Field] => sent_at
+            [Type] => timestamp
+            [Null] => NO
+            [Key] => 
+            [Default] => current_timestamp()
+            [Extra] => 
+        )
+
+    [9] => Array
+        (
+            [Field] => read_at
+            [Type] => timestamp
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [10] => Array
+        (
+            [Field] => related_property_id
+            [Type] => int(11)
+            [Null] => YES
+            [Key] => MUL
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+2025-10-14 19:03:52 - Form data: property_id=11, landlord_id=1, subject=1
+2025-10-14 19:03:52 - Found tenant_id: 1
+2025-10-14 19:03:52 - Exception: Unknown column 'message' in 'field list'
+2025-10-14 19:04:08 - Starting message process
+2025-10-14 19:04:08 - Messages table structure: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => tenant_id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => MUL
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => landlord_id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => MUL
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => property_id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => subject
+            [Type] => varchar(255)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [5] => Array
+        (
+            [Field] => sender_id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => MUL
+            [Default] => 
+            [Extra] => 
+        )
+
+    [6] => Array
+        (
+            [Field] => receiver_id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => MUL
+            [Default] => 
+            [Extra] => 
+        )
+
+    [7] => Array
+        (
+            [Field] => message_text
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [8] => Array
+        (
+            [Field] => sent_at
+            [Type] => timestamp
+            [Null] => NO
+            [Key] => 
+            [Default] => current_timestamp()
+            [Extra] => 
+        )
+
+    [9] => Array
+        (
+            [Field] => read_at
+            [Type] => timestamp
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [10] => Array
+        (
+            [Field] => related_property_id
+            [Type] => int(11)
+            [Null] => YES
+            [Key] => MUL
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+2025-10-14 19:04:08 - Form data: property_id=11, landlord_id=1, subject=1
+2025-10-14 19:04:08 - Found tenant_id: 1
+2025-10-14 19:04:08 - Exception: Unknown column 'message' in 'field list'
+2025-10-14 19:05:08 - Starting message process
+2025-10-14 19:05:08 - Messages table structure: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => tenant_id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => MUL
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => landlord_id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => MUL
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => property_id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [5] => Array
+        (
+            [Field] => subject
+            [Type] => varchar(255)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [6] => Array
+        (
+            [Field] => sender_id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => MUL
+            [Default] => 
+            [Extra] => 
+        )
+
+    [7] => Array
+        (
+            [Field] => receiver_id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => MUL
+            [Default] => 
+            [Extra] => 
+        )
+
+    [8] => Array
+        (
+            [Field] => message_text
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [9] => Array
+        (
+            [Field] => sent_at
+            [Type] => timestamp
+            [Null] => NO
+            [Key] => 
+            [Default] => current_timestamp()
+            [Extra] => 
+        )
+
+    [10] => Array
+        (
+            [Field] => read_at
+            [Type] => timestamp
+            [Null] => YES
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [11] => Array
+        (
+            [Field] => related_property_id
+            [Type] => int(11)
+            [Null] => YES
+            [Key] => MUL
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+2025-10-14 19:05:08 - Form data: property_id=11, landlord_id=1, subject=1
+2025-10-14 19:05:08 - Found tenant_id: 1
+2025-10-14 19:05:08 - Executing query without subject field
+2025-10-14 19:05:08 - Exception: Cannot add or update a child row: a foreign key constraint fails (`homehub`.`messages`, CONSTRAINT `messages_ibfk_1` FOREIGN KEY (`sender_id`) REFERENCES `users` (`id`))
+2025-10-14 19:05:39 - Starting message process
+2025-10-14 19:05:39 - Messages table columns: Array
+(
+    [0] => id
+    [1] => tenant_id
+    [2] => landlord_id
+    [3] => property_id
+    [4] => message
+    [5] => subject
+    [6] => sender_id
+    [7] => receiver_id
+    [8] => message_text
+    [9] => sent_at
+    [10] => read_at
+    [11] => related_property_id
+)
+
+2025-10-14 19:05:39 - Generated SQL: INSERT INTO messages (tenant_id, landlord_id, property_id, subject, message, sent_at) VALUES (?, ?, ?, ?, ?, NOW())
+2025-10-14 19:05:39 - Types: iiiss
+2025-10-14 19:05:39 - Exception: Cannot add or update a child row: a foreign key constraint fails (`homehub`.`messages`, CONSTRAINT `messages_ibfk_1` FOREIGN KEY (`sender_id`) REFERENCES `users` (`id`))
+2025-10-14 19:07:07 - Starting message process
+2025-10-14 19:07:07 - Messages table columns: Array
+(
+    [0] => id
+    [1] => tenant_id
+    [2] => landlord_id
+    [3] => property_id
+    [4] => message
+    [5] => subject
+    [6] => sender_id
+    [7] => receiver_id
+    [8] => message_text
+    [9] => sent_at
+    [10] => read_at
+    [11] => related_property_id
+)
+
+2025-10-14 19:07:07 - Generated SQL: INSERT INTO messages (sender_id, receiver_id, property_id, subject, message, sent_at) VALUES (?, ?, ?, ?, ?, NOW())
+2025-10-14 19:07:07 - Types: iiiss, Params: Array
+(
+    [0] => 1
+    [1] => 2
+    [2] => 11
+    [3] => 1
+    [4] => 1
+)
+
+2025-10-14 19:07:07 - Exception: Cannot add or update a child row: a foreign key constraint fails (`homehub`.`messages`, CONSTRAINT `fk_tenant` FOREIGN KEY (`tenant_id`) REFERENCES `tenants` (`id`) ON DELETE CASCADE)
+2025-10-14 19:09:10 - Starting message process
+2025-10-14 19:09:10 - Received data: userId=1, propertyId=11, landlordId=1
+2025-10-14 19:09:10 - Executing query: INSERT INTO messages (
+                tenant_id, 
+                landlord_id, 
+                property_id, 
+                subject, 
+                message, 
+                message_text, 
+                sender_id, 
+                receiver_id, 
+                related_property_id
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-10-14 19:09:10 - With params: tenantId=1, landlordId=1, propertyId=11, subject=1, senderId=1, receiverId=2
+2025-10-14 19:09:10 - Message sent successfully
+2025-10-14 19:09:10 - Notification created for landlord
+2025-10-14 19:09:51 - Starting message process
+2025-10-14 19:09:51 - Received data: userId=1, propertyId=11, landlordId=1
+2025-10-14 19:09:51 - Executing query: INSERT INTO messages (
+                tenant_id, 
+                landlord_id, 
+                property_id, 
+                subject, 
+                message, 
+                message_text, 
+                sender_id, 
+                receiver_id, 
+                related_property_id
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-10-14 19:09:51 - With params: tenantId=1, landlordId=1, propertyId=11, subject=I WANT TO VISIT THIS, senderId=1, receiverId=2
+2025-10-14 19:09:51 - Message sent successfully
+2025-10-14 19:09:51 - Notification created for landlord
+2025-10-15 08:07:05 - Starting message process
+2025-10-15 08:07:05 - Received data: userId=1, propertyId=12, landlordId=1
+2025-10-15 08:07:05 - Executing query: INSERT INTO messages (
+                tenant_id, 
+                landlord_id, 
+                property_id, 
+                subject, 
+                message, 
+                message_text, 
+                sender_id, 
+                receiver_id, 
+                related_property_id
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-10-15 08:07:05 - With params: tenantId=1, landlordId=1, propertyId=12, subject=.p;,lknjbhgvfcdxs, senderId=1, receiverId=2
+2025-10-15 08:07:05 - Message sent successfully
+2025-10-15 08:07:05 - Notification created for landlord
+2025-10-20 17:58:31 - Starting message process
+2025-10-20 17:58:31 - Received data: userId=1, propertyId=11, landlordId=1
+2025-10-20 17:58:31 - Executing query: INSERT INTO messages (
+                tenant_id, 
+                landlord_id, 
+                property_id, 
+                subject, 
+                message, 
+                message_text, 
+                sender_id, 
+                receiver_id, 
+                related_property_id
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-10-20 17:58:31 - With params: tenantId=1, landlordId=1, propertyId=11, subject=hi, senderId=1, receiverId=2
+2025-10-20 17:58:31 - Message sent successfully
+2025-10-20 17:58:31 - Notification created for landlord
+2025-10-20 19:32:11 - Starting message process
+2025-10-20 19:32:11 - Received data: userId=1, propertyId=12, landlordId=1
+2025-10-20 19:32:11 - Executing query: INSERT INTO messages (
+                tenant_id, 
+                landlord_id, 
+                property_id, 
+                subject, 
+                message, 
+                message_text, 
+                sender_id, 
+                receiver_id, 
+                related_property_id
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-10-20 19:32:11 - With params: tenantId=1, landlordId=1, propertyId=12, subject=IM GOING TO VISIT THIS OKAY?!?!, senderId=1, receiverId=2
+2025-10-20 19:32:11 - Message sent successfully
+2025-10-20 19:32:11 - Notification created for landlord
+2025-10-20 19:38:12 - Starting message process
+2025-10-20 19:38:12 - Received data: userId=1, propertyId=13, landlordId=1
+2025-10-20 19:38:12 - Executing query: INSERT INTO messages (
+                tenant_id, 
+                landlord_id, 
+                property_id, 
+                subject, 
+                message, 
+                message_text, 
+                sender_id, 
+                receiver_id, 
+                related_property_id
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-10-20 19:38:12 - With params: tenantId=1, landlordId=1, propertyId=13, subject=KAMUSTA, senderId=1, receiverId=2
+2025-10-20 19:38:12 - Message sent successfully
+2025-10-20 19:38:12 - Notification created for landlord
+2025-10-23 18:38:33 - Starting message process
+2025-10-23 18:38:33 - Received data: userId=1, propertyId=13, landlordId=1
+2025-10-23 18:38:33 - Executing query: INSERT INTO messages (
+                tenant_id, 
+                landlord_id, 
+                property_id, 
+                subject, 
+                message, 
+                message_text, 
+                sender_id, 
+                receiver_id, 
+                related_property_id
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-10-23 18:38:33 - With params: tenantId=1, landlordId=1, propertyId=13, subject=E, senderId=1, receiverId=2
+2025-10-23 18:38:33 - Message sent successfully
+2025-10-23 18:38:33 - Notification created for landlord
+2025-10-27 07:58:59 - Starting message process
+2025-10-27 07:58:59 - Received data: userId=1, propertyId=20, landlordId=1
+2025-10-27 07:58:59 - Executing query: INSERT INTO messages (
+                tenant_id, 
+                landlord_id, 
+                property_id, 
+                subject, 
+                message, 
+                message_text, 
+                sender_id, 
+                receiver_id, 
+                related_property_id
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-10-27 07:58:59 - With params: tenantId=1, landlordId=1, propertyId=20, subject=hu, senderId=1, receiverId=2
+2025-10-27 07:58:59 - Message sent successfully
+2025-10-27 07:58:59 - Notification created for landlord

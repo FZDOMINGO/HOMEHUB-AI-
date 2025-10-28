@@ -1,0 +1,615 @@
+[27-Oct-2025 06:06:44 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 25
+[27-Oct-2025 06:06:44 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 28
+[27-Oct-2025 06:06:44 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 25
+[27-Oct-2025 06:06:44 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 28
+[27-Oct-2025 06:06:45 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 25
+[27-Oct-2025 06:06:45 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 28
+[27-Oct-2025 06:06:45 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 25
+[27-Oct-2025 06:06:45 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 28
+[27-Oct-2025 06:06:45 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 25
+[27-Oct-2025 06:06:45 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 28
+[27-Oct-2025 06:06:45 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 25
+[27-Oct-2025 06:06:45 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 28
+[27-Oct-2025 06:06:45 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 25
+[27-Oct-2025 06:06:45 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 28
+[27-Oct-2025 06:06:47 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 25
+[27-Oct-2025 06:06:47 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 28
+[27-Oct-2025 06:06:47 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 25
+[27-Oct-2025 06:06:47 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 28
+[27-Oct-2025 06:06:47 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 25
+[27-Oct-2025 06:06:47 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 28
+[27-Oct-2025 06:07:12 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 25
+[27-Oct-2025 06:07:12 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 28
+[27-Oct-2025 06:07:14 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 25
+[27-Oct-2025 06:07:14 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 28
+[27-Oct-2025 06:07:14 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 25
+[27-Oct-2025 06:07:14 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 28
+[27-Oct-2025 06:09:54 Europe/Berlin] PHP Warning:  require_once(../config/db_connect.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 18
+[27-Oct-2025 06:09:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../config/db_connect.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\HomeHub\api\register_debug.php:18
+Stack trace:
+#0 C:\xampp\htdocs\HomeHub\test_register_direct.php(17): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\HomeHub\api\register_debug.php on line 18
+[27-Oct-2025 21:50:35 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'u123456789_homehub'@'localhost' (using password: YES) in /home/homehubai/htdocs/homehubai.shop/config/database.php on line 39
+[27-Oct-2025 21:50:35 UTC] PHP Fatal error:  Uncaught Exception: Database connection failed. Please contact support. in /home/homehubai/htdocs/homehubai.shop/config/database.php:48
+Stack trace:
+#0 /home/homehubai/htdocs/homehubai.shop/landlord/dashboard.php(16): getDbConnection()
+#1 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/config/database.php on line 48
+[27-Oct-2025 21:50:39 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'u123456789_homehub'@'localhost' (using password: YES) in /home/homehubai/htdocs/homehubai.shop/config/database.php on line 39
+[27-Oct-2025 21:50:39 UTC] PHP Fatal error:  Uncaught Exception: Database connection failed. Please contact support. in /home/homehubai/htdocs/homehubai.shop/config/database.php:48
+Stack trace:
+#0 /home/homehubai/htdocs/homehubai.shop/landlord/dashboard.php(16): getDbConnection()
+#1 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/config/database.php on line 48
+[27-Oct-2025 21:50:39 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'u123456789_homehub'@'localhost' (using password: YES) in /home/homehubai/htdocs/homehubai.shop/config/database.php on line 39
+[27-Oct-2025 21:50:39 UTC] PHP Fatal error:  Uncaught Exception: Database connection failed. Please contact support. in /home/homehubai/htdocs/homehubai.shop/config/database.php:48
+Stack trace:
+#0 /home/homehubai/htdocs/homehubai.shop/landlord/dashboard.php(16): getDbConnection()
+#1 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/config/database.php on line 48
+[27-Oct-2025 21:55:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/landlord/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/landlord/index.php on line 34
+[27-Oct-2025 21:55:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/landlord/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/landlord/index.php on line 34
+[27-Oct-2025 21:56:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:507
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 507
+[27-Oct-2025 21:56:27 UTC] Admin Properties Filter Debug - Status: 'all', Search: ''
+[27-Oct-2025 21:56:27 UTC] Admin Properties Filter Debug - Final query: 
+    SELECT p.*, u.first_name, u.last_name, u.email,
+           (SELECT COUNT(*) FROM bookings b WHERE b.property_id = p.id) as booking_count
+    FROM properties p 
+    LEFT JOIN landlords l ON p.landlord_id = l.id 
+    LEFT JOIN users u ON l.user_id = u.id
+    
+    ORDER BY p.created_at DESC
+    LIMIT ? OFFSET ?
+
+[27-Oct-2025 21:56:27 UTC] Admin Properties Filter Debug - Parameters: Array
+(
+)
+
+[27-Oct-2025 21:56:27 UTC] PHP Warning:  Undefined array key "image_url" in /home/homehubai/htdocs/homehubai.shop/admin/properties.php on line 462
+[27-Oct-2025 21:56:27 UTC] PHP Warning:  Undefined array key "image_url" in /home/homehubai/htdocs/homehubai.shop/admin/properties.php on line 462
+[27-Oct-2025 21:56:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on bool in /home/homehubai/htdocs/homehubai.shop/admin/analytics.php:105
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/admin/analytics.php on line 105
+[27-Oct-2025 21:56:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on bool in /home/homehubai/htdocs/homehubai.shop/admin/analytics.php:105
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/admin/analytics.php on line 105
+[27-Oct-2025 21:57:47 UTC] Admin Properties Filter Debug - Status: 'all', Search: ''
+[27-Oct-2025 21:57:47 UTC] Admin Properties Filter Debug - Final query: 
+    SELECT p.*, u.first_name, u.last_name, u.email,
+           (SELECT COUNT(*) FROM bookings b WHERE b.property_id = p.id) as booking_count
+    FROM properties p 
+    LEFT JOIN landlords l ON p.landlord_id = l.id 
+    LEFT JOIN users u ON l.user_id = u.id
+    
+    ORDER BY p.created_at DESC
+    LIMIT ? OFFSET ?
+
+[27-Oct-2025 21:57:47 UTC] Admin Properties Filter Debug - Parameters: Array
+(
+)
+
+[27-Oct-2025 21:57:47 UTC] PHP Warning:  Undefined array key "image_url" in /home/homehubai/htdocs/homehubai.shop/admin/properties.php on line 462
+[27-Oct-2025 21:57:47 UTC] PHP Warning:  Undefined array key "image_url" in /home/homehubai/htdocs/homehubai.shop/admin/properties.php on line 462
+[27-Oct-2025 22:02:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/landlord/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/landlord/index.php on line 34
+[27-Oct-2025 22:04:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:334
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 334
+[27-Oct-2025 22:05:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/tenant/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/tenant/index.php on line 34
+[27-Oct-2025 22:12:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:334
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 334
+[27-Oct-2025 22:12:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/tenant/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/tenant/index.php on line 34
+[27-Oct-2025 22:12:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:334
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 334
+[27-Oct-2025 22:12:40 UTC] PHP Warning:  Undefined array key "preferred_city" in /home/homehubai/htdocs/homehubai.shop/api/ai/get-matches.php on line 126
+[27-Oct-2025 22:12:40 UTC] PHP Warning:  Undefined array key "property_type" in /home/homehubai/htdocs/homehubai.shop/api/ai/get-matches.php on line 127
+[27-Oct-2025 22:13:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:334
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 334
+[27-Oct-2025 22:13:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:334
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 334
+[27-Oct-2025 22:13:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:334
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 334
+[27-Oct-2025 22:13:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:334
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 334
+[27-Oct-2025 22:17:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/tenant/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/tenant/index.php on line 34
+[27-Oct-2025 22:18:54 UTC] PHP Warning:  Undefined array key "user_type" in /home/homehubai/htdocs/homehubai.shop/debug_ai_features.php on line 46
+[27-Oct-2025 22:18:54 UTC] PHP Warning:  Undefined array key "user_type" in /home/homehubai/htdocs/homehubai.shop/debug_ai_features.php on line 50
+[27-Oct-2025 22:18:54 UTC] PHP Warning:  Undefined array key "user_type" in /home/homehubai/htdocs/homehubai.shop/debug_ai_features.php on line 78
+[27-Oct-2025 22:29:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/tenant/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/tenant/index.php on line 34
+[27-Oct-2025 22:29:24 UTC] PHP Warning:  Undefined array key "preferred_city" in /home/homehubai/htdocs/homehubai.shop/api/ai/get-matches.php on line 126
+[27-Oct-2025 22:29:24 UTC] PHP Warning:  Undefined array key "property_type" in /home/homehubai/htdocs/homehubai.shop/api/ai/get-matches.php on line 127
+[27-Oct-2025 22:29:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:334
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 334
+[27-Oct-2025 22:29:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:334
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 334
+[27-Oct-2025 22:29:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/tenant/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/tenant/index.php on line 34
+[27-Oct-2025 22:29:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:334
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 334
+[27-Oct-2025 22:29:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:334
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 334
+[27-Oct-2025 22:40:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/tenant/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/tenant/index.php on line 34
+[27-Oct-2025 22:40:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:334
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 334
+[27-Oct-2025 22:45:42 UTC] Failed to prepare AI activity query: 
+[27-Oct-2025 22:45:45 UTC] Failed to prepare AI activity query: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'homehub.similarity_scores.calculated_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[27-Oct-2025 22:45:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/tenant/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/tenant/index.php on line 34
+[27-Oct-2025 22:45:49 UTC] Failed to prepare AI activity query: 
+[27-Oct-2025 22:45:54 UTC] Failed to prepare AI activity query: 
+[27-Oct-2025 22:45:58 UTC] Failed to prepare AI activity query: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'homehub.similarity_scores.calculated_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[27-Oct-2025 22:46:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:528
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 528
+[27-Oct-2025 22:46:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:528
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 528
+[27-Oct-2025 22:46:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:528
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 528
+[27-Oct-2025 22:46:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/landlord/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/landlord/index.php on line 34
+[27-Oct-2025 22:47:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/landlord/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/landlord/index.php on line 34
+[27-Oct-2025 22:47:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:528
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 528
+[27-Oct-2025 22:50:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:528
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 528
+[27-Oct-2025 22:50:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:528
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 528
+[27-Oct-2025 22:50:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:528
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 528
+[27-Oct-2025 22:50:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:528
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 528
+[27-Oct-2025 22:50:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:528
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 528
+[27-Oct-2025 22:50:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:528
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 528
+[27-Oct-2025 22:50:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:528
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 528
+[27-Oct-2025 22:50:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:528
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 528
+[27-Oct-2025 22:50:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:528
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 528
+[27-Oct-2025 22:50:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:528
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 528
+[27-Oct-2025 22:50:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/homehubai/htdocs/homehubai.shop/api/get-history.php:528
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/api/get-history.php on line 528
+[27-Oct-2025 22:55:28 UTC] Failed to prepare query (landlord property views): Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'homehub.bh.viewed_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[27-Oct-2025 22:55:28 UTC] Query was: 
+            SELECT 
+                'property_views' as activity_type,
+                DATE(bh.viewed_at) as activity_date,
+                p.id as property_id,
+                p.title as property_ti
+[27-Oct-2025 22:55:33 UTC] Failed to prepare query (landlord property views): Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'homehub.bh.viewed_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[27-Oct-2025 22:55:33 UTC] Query was: 
+            SELECT 
+                'property_views' as activity_type,
+                DATE(bh.viewed_at) as activity_date,
+                p.id as property_id,
+                p.title as property_ti
+[27-Oct-2025 22:55:34 UTC] Failed to prepare query (landlord property views): Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'homehub.bh.viewed_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[27-Oct-2025 22:55:34 UTC] Query was: 
+            SELECT 
+                'property_views' as activity_type,
+                DATE(bh.viewed_at) as activity_date,
+                p.id as property_id,
+                p.title as property_ti
+[27-Oct-2025 22:56:23 UTC] Failed to prepare query (browsing history): Unknown column 'bh.viewed_at' in 'order clause'
+[27-Oct-2025 22:56:23 UTC] Query was: 
+            SELECT 
+                ui.id,
+                ui.interaction_type as activity_type,
+                ui.created_at as activity_date,
+                'completed' as status,
+               
+[27-Oct-2025 22:56:23 UTC] Failed to prepare AI activity query: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'homehub.similarity_scores.calculated_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[27-Oct-2025 22:56:29 UTC] Failed to prepare AI activity query: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'homehub.similarity_scores.calculated_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[27-Oct-2025 22:58:44 UTC] Failed to prepare query (landlord property views): Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'homehub.bh.viewed_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[27-Oct-2025 22:58:44 UTC] Query was: 
+            SELECT 
+                'property_views' as activity_type,
+                DATE(bh.viewed_at) as activity_date,
+                p.id as property_id,
+                p.title as property_ti
+[27-Oct-2025 23:05:58 UTC] Failed to prepare query (browsing history): Unknown column 'bh.viewed_at' in 'order clause'
+[27-Oct-2025 23:05:58 UTC] Query was: 
+            SELECT 
+                ui.id,
+                ui.interaction_type as activity_type,
+                ui.created_at as activity_date,
+                'completed' as status,
+               
+[27-Oct-2025 23:05:58 UTC] Failed to prepare AI activity query: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'homehub.similarity_scores.calculated_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[27-Oct-2025 23:06:01 UTC] PHP Warning:  Undefined array key "preferred_city" in /home/homehubai/htdocs/homehubai.shop/api/ai/get-matches.php on line 161
+[27-Oct-2025 23:06:01 UTC] PHP Warning:  Undefined array key "property_type" in /home/homehubai/htdocs/homehubai.shop/api/ai/get-matches.php on line 162
+[27-Oct-2025 23:06:20 UTC] PHP Warning:  Undefined array key "preferred_city" in /home/homehubai/htdocs/homehubai.shop/api/ai/get-matches.php on line 161
+[27-Oct-2025 23:06:20 UTC] PHP Warning:  Undefined array key "property_type" in /home/homehubai/htdocs/homehubai.shop/api/ai/get-matches.php on line 162
+[27-Oct-2025 23:11:36 UTC] Failed to prepare query (landlord property views): Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'homehub.bh.viewed_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[27-Oct-2025 23:11:36 UTC] Query was: 
+            SELECT 
+                'property_views' as activity_type,
+                DATE(bh.viewed_at) as activity_date,
+                p.id as property_id,
+                p.title as property_ti
+[27-Oct-2025 23:12:41 UTC] PHP Warning:  Undefined array key "preferred_city" in /home/homehubai/htdocs/homehubai.shop/api/ai/get-matches.php on line 161
+[27-Oct-2025 23:12:41 UTC] PHP Warning:  Undefined array key "property_type" in /home/homehubai/htdocs/homehubai.shop/api/ai/get-matches.php on line 162
+[27-Oct-2025 23:29:22 UTC] Failed to prepare query (landlord property views): Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'homehub.bh.viewed_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[27-Oct-2025 23:29:22 UTC] Query was: 
+            SELECT 
+                'property_views' as activity_type,
+                DATE(bh.viewed_at) as activity_date,
+                p.id as property_id,
+                p.title as property_ti
+[27-Oct-2025 23:29:24 UTC] Failed to prepare query (landlord property views): Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'homehub.bh.viewed_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[27-Oct-2025 23:29:24 UTC] Query was: 
+            SELECT 
+                'property_views' as activity_type,
+                DATE(bh.viewed_at) as activity_date,
+                p.id as property_id,
+                p.title as property_ti
+[27-Oct-2025 23:29:25 UTC] Failed to prepare query (landlord property views): Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'homehub.bh.viewed_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[27-Oct-2025 23:29:25 UTC] Query was: 
+            SELECT 
+                'property_views' as activity_type,
+                DATE(bh.viewed_at) as activity_date,
+                p.id as property_id,
+                p.title as property_ti
+[27-Oct-2025 23:35:13 UTC] Failed to prepare query (landlord property views): Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'homehub.bh.viewed_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[27-Oct-2025 23:35:13 UTC] Query was: 
+            SELECT 
+                'property_views' as activity_type,
+                DATE(bh.viewed_at) as activity_date,
+                p.id as property_id,
+                p.title as property_ti
+[27-Oct-2025 23:35:18 UTC] Failed to prepare query (landlord property views): Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'homehub.bh.viewed_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[27-Oct-2025 23:35:18 UTC] Query was: 
+            SELECT 
+                'property_views' as activity_type,
+                DATE(bh.viewed_at) as activity_date,
+                p.id as property_id,
+                p.title as property_ti
+[27-Oct-2025 23:54:03 UTC] PHP Warning:  Undefined array key "preferred_city" in /home/homehubai/htdocs/homehubai.shop/api/ai/get-matches.php on line 161
+[27-Oct-2025 23:54:03 UTC] PHP Warning:  Undefined array key "property_type" in /home/homehubai/htdocs/homehubai.shop/api/ai/get-matches.php on line 162
+[27-Oct-2025 23:54:14 UTC] PHP Warning:  Undefined array key "preferred_city" in /home/homehubai/htdocs/homehubai.shop/api/ai/get-matches.php on line 161
+[27-Oct-2025 23:54:14 UTC] PHP Warning:  Undefined array key "property_type" in /home/homehubai/htdocs/homehubai.shop/api/ai/get-matches.php on line 162
+[27-Oct-2025 23:54:21 UTC] PHP Warning:  Undefined array key "preferred_city" in /home/homehubai/htdocs/homehubai.shop/api/ai/get-matches.php on line 161
+[27-Oct-2025 23:54:21 UTC] PHP Warning:  Undefined array key "property_type" in /home/homehubai/htdocs/homehubai.shop/api/ai/get-matches.php on line 162
+[27-Oct-2025 23:54:37 UTC] Failed to prepare saved properties query: Unknown column 'user_id' in 'where clause'
+[27-Oct-2025 23:54:43 UTC] Failed to prepare query (browsing history): Unknown column 'bh.viewed_at' in 'order clause'
+[27-Oct-2025 23:54:43 UTC] Query was: 
+            SELECT 
+                ui.id,
+                ui.interaction_type as activity_type,
+                ui.created_at as activity_date,
+                'completed' as status,
+               
+[27-Oct-2025 23:54:43 UTC] Failed to prepare AI activity query: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'homehub.similarity_scores.calculated_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[27-Oct-2025 23:54:46 UTC] Failed to prepare saved properties query: Unknown column 'user_id' in 'where clause'
+[27-Oct-2025 23:55:13 UTC] PHP Warning:  Undefined array key "preferred_city" in /home/homehubai/htdocs/homehubai.shop/api/ai/get-matches.php on line 161
+[27-Oct-2025 23:55:13 UTC] PHP Warning:  Undefined array key "property_type" in /home/homehubai/htdocs/homehubai.shop/api/ai/get-matches.php on line 162
+[27-Oct-2025 23:55:22 UTC] Failed to prepare query (browsing history): Unknown column 'bh.viewed_at' in 'order clause'
+[27-Oct-2025 23:55:22 UTC] Query was: 
+            SELECT 
+                ui.id,
+                ui.interaction_type as activity_type,
+                ui.created_at as activity_date,
+                'completed' as status,
+               
+[27-Oct-2025 23:55:22 UTC] Failed to prepare AI activity query: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'homehub.similarity_scores.calculated_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[27-Oct-2025 23:55:32 UTC] Failed to prepare saved properties query: Unknown column 'user_id' in 'where clause'
+[27-Oct-2025 23:55:34 UTC] Failed to prepare query (browsing history): Unknown column 'bh.viewed_at' in 'order clause'
+[27-Oct-2025 23:55:34 UTC] Query was: 
+            SELECT 
+                ui.id,
+                ui.interaction_type as activity_type,
+                ui.created_at as activity_date,
+                'completed' as status,
+               
+[27-Oct-2025 23:55:34 UTC] Failed to prepare AI activity query: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'homehub.similarity_scores.calculated_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[27-Oct-2025 23:55:35 UTC] Failed to prepare query (browsing history): Unknown column 'bh.viewed_at' in 'order clause'
+[27-Oct-2025 23:55:35 UTC] Query was: 
+            SELECT 
+                ui.id,
+                ui.interaction_type as activity_type,
+                ui.created_at as activity_date,
+                'completed' as status,
+               
+[27-Oct-2025 23:55:35 UTC] Failed to prepare AI activity query: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'homehub.similarity_scores.calculated_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[27-Oct-2025 23:55:37 UTC] Failed to prepare saved properties query: Unknown column 'user_id' in 'where clause'
+[27-Oct-2025 23:55:38 UTC] Failed to prepare query (browsing history): Unknown column 'bh.viewed_at' in 'order clause'
+[27-Oct-2025 23:55:38 UTC] Query was: 
+            SELECT 
+                ui.id,
+                ui.interaction_type as activity_type,
+                ui.created_at as activity_date,
+                'completed' as status,
+               
+[27-Oct-2025 23:55:38 UTC] Failed to prepare AI activity query: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'homehub.similarity_scores.calculated_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[27-Oct-2025 23:55:39 UTC] Failed to prepare query (browsing history): Unknown column 'bh.viewed_at' in 'order clause'
+[27-Oct-2025 23:55:39 UTC] Query was: 
+            SELECT 
+                ui.id,
+                ui.interaction_type as activity_type,
+                ui.created_at as activity_date,
+                'completed' as status,
+               
+[27-Oct-2025 23:55:39 UTC] Failed to prepare AI activity query: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'homehub.similarity_scores.calculated_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[27-Oct-2025 23:55:40 UTC] Failed to prepare query (browsing history): Unknown column 'bh.viewed_at' in 'order clause'
+[27-Oct-2025 23:55:40 UTC] Query was: 
+            SELECT 
+                ui.id,
+                ui.interaction_type as activity_type,
+                ui.created_at as activity_date,
+                'completed' as status,
+               
+[27-Oct-2025 23:55:40 UTC] Failed to prepare AI activity query: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'homehub.similarity_scores.calculated_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[27-Oct-2025 23:55:42 UTC] Failed to prepare saved properties query: Unknown column 'user_id' in 'where clause'
+[27-Oct-2025 23:56:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_all() on bool in /home/homehubai/htdocs/homehubai.shop/admin/analytics.php:105
+Stack trace:
+#0 {main}
+  thrown in /home/homehubai/htdocs/homehubai.shop/admin/analytics.php on line 105
+[27-Oct-2025 23:57:21 UTC] Admin Properties Filter Debug - Status: 'all', Search: ''
+[27-Oct-2025 23:57:21 UTC] Admin Properties Filter Debug - Final query: 
+    SELECT p.*, u.first_name, u.last_name, u.email,
+           (SELECT COUNT(*) FROM bookings b WHERE b.property_id = p.id) as booking_count
+    FROM properties p 
+    LEFT JOIN landlords l ON p.landlord_id = l.id 
+    LEFT JOIN users u ON l.user_id = u.id
+    
+    ORDER BY p.created_at DESC
+    LIMIT ? OFFSET ?
+
+[27-Oct-2025 23:57:21 UTC] Admin Properties Filter Debug - Parameters: Array
+(
+)
+
+[27-Oct-2025 23:57:21 UTC] PHP Warning:  Undefined array key "image_url" in /home/homehubai/htdocs/homehubai.shop/admin/properties.php on line 462
+[27-Oct-2025 23:57:21 UTC] PHP Warning:  Undefined array key "image_url" in /home/homehubai/htdocs/homehubai.shop/admin/properties.php on line 462
+[27-Oct-2025 23:57:24 UTC] Admin Properties Filter Debug - Status: 'all', Search: ''
+[27-Oct-2025 23:57:24 UTC] Admin Properties Filter Debug - Final query: 
+    SELECT p.*, u.first_name, u.last_name, u.email,
+           (SELECT COUNT(*) FROM bookings b WHERE b.property_id = p.id) as booking_count
+    FROM properties p 
+    LEFT JOIN landlords l ON p.landlord_id = l.id 
+    LEFT JOIN users u ON l.user_id = u.id
+    
+    ORDER BY p.created_at DESC
+    LIMIT ? OFFSET ?
+
+[27-Oct-2025 23:57:24 UTC] Admin Properties Filter Debug - Parameters: Array
+(
+)
+
+[27-Oct-2025 23:57:24 UTC] PHP Warning:  Undefined array key "image_url" in /home/homehubai/htdocs/homehubai.shop/admin/properties.php on line 462
+[27-Oct-2025 23:57:24 UTC] PHP Warning:  Undefined array key "image_url" in /home/homehubai/htdocs/homehubai.shop/admin/properties.php on line 462
+[27-Oct-2025 23:57:25 UTC] Admin Properties Filter Debug - Status: 'all', Search: ''
+[27-Oct-2025 23:57:25 UTC] Admin Properties Filter Debug - Final query: 
+    SELECT p.*, u.first_name, u.last_name, u.email,
+           (SELECT COUNT(*) FROM bookings b WHERE b.property_id = p.id) as booking_count
+    FROM properties p 
+    LEFT JOIN landlords l ON p.landlord_id = l.id 
+    LEFT JOIN users u ON l.user_id = u.id
+    
+    ORDER BY p.created_at DESC
+    LIMIT ? OFFSET ?
+
+[27-Oct-2025 23:57:25 UTC] Admin Properties Filter Debug - Parameters: Array
+(
+)
+
+[27-Oct-2025 23:57:25 UTC] PHP Warning:  Undefined array key "image_url" in /home/homehubai/htdocs/homehubai.shop/admin/properties.php on line 462
+[27-Oct-2025 23:57:25 UTC] PHP Warning:  Undefined array key "image_url" in /home/homehubai/htdocs/homehubai.shop/admin/properties.php on line 462
+[28-Oct-2025 00:01:25 UTC] Admin Properties Filter Debug - Status: 'all', Search: ''
+[28-Oct-2025 00:01:25 UTC] Admin Properties Filter Debug - Final query: 
+    SELECT p.*, u.first_name, u.last_name, u.email,
+           (SELECT COUNT(*) FROM bookings b WHERE b.property_id = p.id) as booking_count
+    FROM properties p 
+    LEFT JOIN landlords l ON p.landlord_id = l.id 
+    LEFT JOIN users u ON l.user_id = u.id
+    
+    ORDER BY p.created_at DESC
+    LIMIT ? OFFSET ?
+
+[28-Oct-2025 00:01:25 UTC] Admin Properties Filter Debug - Parameters: Array
+(
+)
+
+[28-Oct-2025 00:01:25 UTC] PHP Warning:  Undefined array key "image_url" in /home/homehubai/htdocs/homehubai.shop/admin/properties.php on line 462
+[28-Oct-2025 00:01:25 UTC] PHP Warning:  Undefined array key "image_url" in /home/homehubai/htdocs/homehubai.shop/admin/properties.php on line 462
+[28-Oct-2025 00:01:28 UTC] Admin Properties Filter Debug - Status: 'all', Search: ''
+[28-Oct-2025 00:01:28 UTC] Admin Properties Filter Debug - Final query: 
+    SELECT p.*, u.first_name, u.last_name, u.email,
+           (SELECT COUNT(*) FROM bookings b WHERE b.property_id = p.id) as booking_count
+    FROM properties p 
+    LEFT JOIN landlords l ON p.landlord_id = l.id 
+    LEFT JOIN users u ON l.user_id = u.id
+    
+    ORDER BY p.created_at DESC
+    LIMIT ? OFFSET ?
+
+[28-Oct-2025 00:01:28 UTC] Admin Properties Filter Debug - Parameters: Array
+(
+)
+
+[28-Oct-2025 00:01:28 UTC] PHP Warning:  Undefined array key "image_url" in /home/homehubai/htdocs/homehubai.shop/admin/properties.php on line 462
+[28-Oct-2025 00:01:28 UTC] PHP Warning:  Undefined array key "image_url" in /home/homehubai/htdocs/homehubai.shop/admin/properties.php on line 462
+[28-Oct-2025 06:01:16 UTC] Failed to prepare query (landlord property views): Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'homehub.bh.viewed_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[28-Oct-2025 06:01:16 UTC] Query was: 
+            SELECT 
+                'property_views' as activity_type,
+                DATE(bh.viewed_at) as activity_date,
+                p.id as property_id,
+                p.title as property_ti
+[28-Oct-2025 06:01:23 UTC] Failed to prepare query (landlord property views): Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'homehub.bh.viewed_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[28-Oct-2025 06:01:23 UTC] Query was: 
+            SELECT 
+                'property_views' as activity_type,
+                DATE(bh.viewed_at) as activity_date,
+                p.id as property_id,
+                p.title as property_ti
+[28-Oct-2025 06:01:27 UTC] === LANDLORD RESERVATIONS API CALLED ===
+[28-Oct-2025 06:01:27 UTC] Session user_id: 2
+[28-Oct-2025 06:01:27 UTC] Session user_type: landlord
+[28-Oct-2025 06:01:27 UTC] Landlord ID found: 1
+[28-Oct-2025 06:01:27 UTC] Total reservations found: 0
+[28-Oct-2025 14:14:37 UTC] Failed to prepare saved properties query: Unknown column 'user_id' in 'where clause'
+[28-Oct-2025 14:15:16 UTC] Failed to prepare query (browsing history): Unknown column 'bh.viewed_at' in 'order clause'
+[28-Oct-2025 14:15:16 UTC] Query was: 
+            SELECT 
+                ui.id,
+                ui.interaction_type as activity_type,
+                ui.created_at as activity_date,
+                'completed' as status,
+               
+[28-Oct-2025 14:15:16 UTC] Failed to prepare AI activity query: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'homehub.similarity_scores.calculated_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[28-Oct-2025 14:15:18 UTC] Failed to prepare saved properties query: Unknown column 'user_id' in 'where clause'
+[28-Oct-2025 14:15:21 UTC] Failed to prepare saved properties query: Unknown column 'user_id' in 'where clause'
+[28-Oct-2025 14:16:40 UTC] Failed to prepare query (browsing history): Unknown column 'bh.viewed_at' in 'order clause'
+[28-Oct-2025 14:16:40 UTC] Query was: 
+            SELECT 
+                ui.id,
+                ui.interaction_type as activity_type,
+                ui.created_at as activity_date,
+                'completed' as status,
+               
+[28-Oct-2025 14:16:40 UTC] Failed to prepare AI activity query: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'homehub.similarity_scores.calculated_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[28-Oct-2025 14:16:44 UTC] Failed to prepare saved properties query: Unknown column 'user_id' in 'where clause'
+[28-Oct-2025 14:16:52 UTC] Failed to prepare saved properties query: Unknown column 'user_id' in 'where clause'
+[28-Oct-2025 14:17:19 UTC] Failed to prepare saved properties query: Unknown column 'user_id' in 'where clause'
+[28-Oct-2025 14:17:29 UTC] Failed to prepare saved properties query: Unknown column 'user_id' in 'where clause'
+[28-Oct-2025 14:17:30 UTC] Failed to prepare query (browsing history): Unknown column 'bh.viewed_at' in 'order clause'
+[28-Oct-2025 14:17:30 UTC] Query was: 
+            SELECT 
+                ui.id,
+                ui.interaction_type as activity_type,
+                ui.created_at as activity_date,
+                'completed' as status,
+               
+[28-Oct-2025 14:17:30 UTC] Failed to prepare AI activity query: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'homehub.similarity_scores.calculated_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[28-Oct-2025 14:17:32 UTC] Failed to prepare query (browsing history): Unknown column 'bh.viewed_at' in 'order clause'
+[28-Oct-2025 14:17:32 UTC] Query was: 
+            SELECT 
+                ui.id,
+                ui.interaction_type as activity_type,
+                ui.created_at as activity_date,
+                'completed' as status,
+               
+[28-Oct-2025 14:17:32 UTC] Failed to prepare AI activity query: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'homehub.similarity_scores.calculated_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[28-Oct-2025 14:17:34 UTC] Failed to prepare saved properties query: Unknown column 'user_id' in 'where clause'
+[28-Oct-2025 14:17:55 UTC] Failed to prepare saved properties query: Unknown column 'user_id' in 'where clause'
+[28-Oct-2025 14:18:10 UTC] Failed to prepare saved properties query: Unknown column 'user_id' in 'where clause'
+[28-Oct-2025 14:20:26 UTC] Failed to prepare query (browsing history): Unknown column 'bh.viewed_at' in 'order clause'
+[28-Oct-2025 14:20:26 UTC] Query was: 
+            SELECT 
+                ui.id,
+                ui.interaction_type as activity_type,
+                ui.created_at as activity_date,
+                'completed' as status,
+               
+[28-Oct-2025 14:20:26 UTC] Failed to prepare AI activity query: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'homehub.similarity_scores.calculated_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[28-Oct-2025 14:21:07 UTC] Failed to prepare saved properties query: Unknown column 'user_id' in 'where clause'
+[28-Oct-2025 14:21:53 UTC] Failed to prepare query (landlord property views): Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'homehub.bh.viewed_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[28-Oct-2025 14:21:53 UTC] Query was: 
+            SELECT 
+                'property_views' as activity_type,
+                DATE(bh.viewed_at) as activity_date,
+                p.id as property_id,
+                p.title as property_ti
+[28-Oct-2025 14:22:04 UTC] Failed to prepare query (landlord property views): Expression #1 of ORDER BY clause is not in GROUP BY clause and contains nonaggregated column 'homehub.bh.viewed_at' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[28-Oct-2025 14:22:04 UTC] Query was: 
+            SELECT 
+                'property_views' as activity_type,
+                DATE(bh.viewed_at) as activity_date,
+                p.id as property_id,
+                p.title as property_ti
+[28-Oct-2025 14:26:21 UTC] Failed to prepare saved properties query: Unknown column 'user_id' in 'where clause'
+[28-Oct-2025 14:50:02 UTC] Failed to prepare saved properties query: Unknown column 'user_id' in 'where clause'

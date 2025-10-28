@@ -1,0 +1,4 @@
+[27-Oct-2025 14:44:16 Europe/Berlin] Email Config Debug - use_smtp: 1
+[27-Oct-2025 14:44:16 Europe/Berlin] Email Config Debug - smtp_host: smtp.gmail.com
+[27-Oct-2025 14:44:16 Europe/Berlin] Using SMTP for email to: zachdomingojavellana@gmail.com
+[27-Oct-2025 14:44:19 Europe/Berlin] Email sent successfully via SMTP to: zachdomingojavellana@gmail.com

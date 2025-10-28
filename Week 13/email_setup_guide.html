@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Notification Setup - Step by Step Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        h1 {
+            color: #8b5cf6;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        
+        .step {
+            background: #f8f9fa;
+            border-left: 5px solid #8b5cf6;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        
+        .step:hover {
+            box-shadow: 0 5px 15px rgba(139, 92, 246, 0.2);
+            transform: translateX(5px);
+        }
+        
+        .step-number {
+            display: inline-block;
+            background: #8b5cf6;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            font-weight: bold;
+            font-size: 20px;
+            margin-right: 15px;
+        }
+        
+        .step-title {
+            font-size: 22px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        
+        .step-content {
+            color: #555;
+            line-height: 1.8;
+            margin-left: 55px;
+        }
+        
+        .step-content ul, .step-content ol {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        
+        .step-content li {
+            margin-bottom: 8px;
+        }
+        
+        .action-button {
+            display: inline-block;
+            background: #8b5cf6;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 15px;
+            transition: all 0.3s ease;
+        }
+        
+        .action-button:hover {
+            background: #7c3aed;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(139, 92, 246, 0.3);
+        }
+        
+        .info-box {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        
+        .info-box strong {
+            color: #856404;
+        }
+        
+        .success-box {
+            background: #d1fae5;
+            border: 2px solid #10b981;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        
+        .success-box strong {
+            color: #065f46;
+        }
+        
+        code {
+            background: #f3f4f6;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            color: #e83e8c;
+        }
+        
+        .url {
+            background: #e0e7ff;
+            padding: 10px 15px;
+            border-radius: 6px;
+            font-family: 'Courier New', monospace;
+            color: #4338ca;
+            margin: 10px 0;
+            display: block;
+            word-break: break-all;
+        }
+        
+        .checkpoint {
+            background: #d1fae5;
+            border-left: 5px solid #10b981;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+        
+        .checkpoint strong {
+            color: #065f46;
+        }
+        
+        .option {
+            background: white;
+            border: 2px solid #ddd;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+        }
+        
+        .option h4 {
+            color: #8b5cf6;
+            margin-bottom: 10px;
+        }
+        
+        .nav-buttons {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+            padding-top: 30px;
+            border-top: 2px solid #e5e7eb;
+        }
+        
+        .nav-buttons a {
+            flex: 1;
+            text-align: center;
+            padding: 15px;
+            background: #f3f4f6;
+            color: #333;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-buttons a:hover {
+            background: #8b5cf6;
+            color: white;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📧 Email Notification Setup</h1>
+        <p class="subtitle">Follow these steps to set up and test email notifications in HomeHub</p>
+        
+        <!-- STEP 1 -->
+        <div class="step">
+            <div class="step-title">
+                <span class="step-number">1</span>
+                Create Email Database Tables
+            </div>
+            <div class="step-content">
+                <p>First, you need to create the required database tables for email configuration.</p>
+                
+                <p><strong>Open this URL in your browser:</strong></p>
+                <div class="url">http://localhost/HomeHub/setup_email.php</div>
+                
+                <a href="setup_email.php" class="action-button" target="_blank">→ Run Email Setup</a>
+                
+                <div class="checkpoint">
+                    <strong>✅ Checkpoint:</strong> You should see a success message saying "Email system setup completed successfully!" with a list of created tables.
+                </div>
+            </div>
+        </div>
+        
+        <!-- STEP 2 -->
+        <div class="step">
+            <div class="step-title">
+                <span class="step-number">2</span>
+                Login to Your Account
+            </div>
+            <div class="step-content">
+                <p>You need to be logged in as either a <strong>landlord</strong> or <strong>tenant</strong>.</p>
+                
+                <div class="option">
+                    <h4>Option A: Already have an account?</h4>
+                    <p>Login at: <code>http://localhost/HomeHub/login/login.html</code></p>
+                    <a href="login/login.html" class="action-button" target="_blank">→ Go to Login</a>
+                </div>
+                
+                <div class="option">
+                    <h4>Option B: Need to create an account?</h4>
+                    <p>Register at: <code>http://localhost/HomeHub/login/register.html</code></p>
+                    <a href="login/register.html" class="action-button" target="_blank">→ Go to Register</a>
+                </div>
+                
+                <div class="checkpoint">
+                    <strong>✅ Checkpoint:</strong> You should be redirected to your dashboard (landlord or tenant) after successful login.
+                </div>
+            </div>
+        </div>
+        
+        <!-- STEP 3 -->
+        <div class="step">
+            <div class="step-title">
+                <span class="step-number">3</span>
+                Configure Email Settings
+            </div>
+            <div class="step-content">
+                <p>Now configure how emails will be sent from your system.</p>
+                
+                <p><strong>Open the Email Settings page:</strong></p>
+                <div class="url">http://localhost/HomeHub/admin/email-settings.php</div>
+                
+                <a href="admin/email-settings.php" class="action-button" target="_blank">→ Open Email Settings</a>
+                
+                <div style="margin-top: 20px;">
+                    <p><strong>Choose ONE of these options:</strong></p>
+                    
+                    <div class="option">
+                        <h4>🎯 Option A: PHP Mail (Quick Testing)</h4>
+                        <p><strong>Best for:</strong> Local testing, seeing if code works</p>
+                        <p><strong>Setup:</strong></p>
+                        <ol>
+                            <li>Leave the "Use SMTP" checkbox <strong>UNCHECKED</strong></li>
+                            <li>Click "Save Settings"</li>
+                            <li>⚠️ Note: Emails might not actually arrive (that's normal)</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="option">
+                        <h4>📧 Option B: Gmail SMTP (Real Emails)</h4>
+                        <p><strong>Best for:</strong> Actually receiving test emails</p>
+                        <p><strong>Setup:</strong></p>
+                        <ol>
+                            <li>✅ Check the "Use SMTP" checkbox</li>
+                            <li>SMTP Host: <code>smtp.gmail.com</code></li>
+                            <li>SMTP Port: <code>587</code></li>
+                            <li>Encryption: <code>TLS</code></li>
+                            <li>Username: Your Gmail address (e.g., yourname@gmail.com)</li>
+                            <li>Password: Your Gmail <strong>App Password</strong> (see Step 4)</li>
+                            <li>From Email: Your Gmail address</li>
+                            <li>From Name: <code>HomeHub</code></li>
+                            <li>Click "Save Settings"</li>
+                        </ol>
+                        
+                        <div class="info-box">
+                            <strong>⚠️ Important:</strong> You MUST use a Gmail App Password, not your regular password! See Step 4 below.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="checkpoint">
+                    <strong>✅ Checkpoint:</strong> You should see "Email settings updated successfully!" message.
+                </div>
+            </div>
+        </div>
+        
+        <!-- STEP 4 -->
+        <div class="step">
+            <div class="step-title">
+                <span class="step-number">4</span>
+                Get Gmail App Password (Only if using Gmail SMTP)
+            </div>
+            <div class="step-content">
+                <p><strong>Skip this step if you chose PHP Mail option!</strong></p>
+                
+                <p>If you're using Gmail SMTP, you need an App Password:</p>
+                
+                <ol>
+                    <li>Go to your <strong>Google Account</strong>: <a href="https://myaccount.google.com/" target="_blank">https://myaccount.google.com/</a></li>
+                    <li>Click <strong>Security</strong> (in the left sidebar)</li>
+                    <li>Scroll down to "How you sign in to Google"</li>
+                    <li>Click <strong>2-Step Verification</strong> (enable it if not already enabled)</li>
+                    <li>Scroll down and click <strong>App passwords</strong></li>
+                    <li>Select app: <strong>Mail</strong></li>
+                    <li>Select device: <strong>Windows Computer</strong></li>
+                    <li>Click <strong>Generate</strong></li>
+                    <li>Copy the <strong>16-character password</strong> (looks like: abcd efgh ijkl mnop)</li>
+                    <li>Paste it in the "SMTP Password" field in HomeHub email settings</li>
+                    <li>Save settings</li>
+                </ol>
+                
+                <div class="info-box">
+                    <strong>💡 Tip:</strong> Remove spaces from the app password before pasting!
+                </div>
+                
+                <div class="checkpoint">
+                    <strong>✅ Checkpoint:</strong> You have the 16-character app password and entered it in email settings.
+                </div>
+            </div>
+        </div>
+        
+        <!-- STEP 5 -->
+        <div class="step">
+            <div class="step-title">
+                <span class="step-number">5</span>
+                Send a Test Email
+            </div>
+            <div class="step-content">
+                <p>Time to test if emails are working!</p>
+                
+                <p><strong>Method 1: From Email Settings page</strong></p>
+                <ol>
+                    <li>On the Email Settings page (where you just configured SMTP)</li>
+                    <li>Click the <strong>"Send Test Email"</strong> button (green button)</li>
+                    <li>You should see an alert: "Test email sent successfully!"</li>
+                </ol>
+                
+                <p style="margin-top: 15px;"><strong>Method 2: From Test Dashboard</strong></p>
+                <div class="url">http://localhost/HomeHub/test_email_notifications.php</div>
+                <a href="test_email_notifications.php" class="action-button" target="_blank">→ Open Test Dashboard</a>
+                
+                <ol style="margin-top: 15px;">
+                    <li>Click <strong>"📨 Send Simple Test Email"</strong></li>
+                    <li>Wait for success message</li>
+                </ol>
+                
+                <div class="checkpoint">
+                    <strong>✅ Checkpoint:</strong> Check your email inbox (and spam/junk folder!) for the test email.
+                </div>
+                
+                <div class="info-box">
+                    <strong>⚠️ Not receiving emails?</strong>
+                    <ul style="margin-top: 10px;">
+                        <li>Check your <strong>spam/junk folder</strong> first!</li>
+                        <li>If using PHP Mail: This is normal, emails might not arrive locally</li>
+                        <li>If using Gmail SMTP: Double-check your app password and settings</li>
+                        <li>Make sure your user account has a valid email address</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- STEP 6 -->
+        <div class="step">
+            <div class="step-title">
+                <span class="step-number">6</span>
+                Test Email Templates
+            </div>
+            <div class="step-content">
+                <p>Test different types of email notifications to see how they look.</p>
+                
+                <p><strong>Go to the Test Dashboard:</strong></p>
+                <div class="url">http://localhost/HomeHub/test_email_notifications.php</div>
+                <a href="test_email_notifications.php" class="action-button" target="_blank">→ Open Test Dashboard</a>
+                
+                <p style="margin-top: 15px;"><strong>Try these tests:</strong></p>
+                <ol>
+                    <li><strong>🏠 Test Visit Notification</strong> - Simulates when a tenant requests a property visit</li>
+                    <li><strong>📅 Test Booking Notification</strong> - Simulates when a tenant books/reserves a property</li>
+                    <li><strong>🎨 Test All Email Templates</strong> - Sends all 7 different email types at once</li>
+                </ol>
+                
+                <div class="success-box">
+                    <strong>✨ Preview Templates (No Email Sent):</strong><br>
+                    Want to see how emails look without sending? Visit:
+                    <div class="url" style="margin-top: 10px;">http://localhost/HomeHub/admin/email-preview.php</div>
+                    <a href="admin/email-preview.php" class="action-button" target="_blank">→ Preview Email Templates</a>
+                </div>
+                
+                <div class="checkpoint">
+                    <strong>✅ Checkpoint:</strong> You should receive multiple test emails showing different notification types.
+                </div>
+            </div>
+        </div>
+        
+        <!-- STEP 7 -->
+        <div class="step">
+            <div class="step-title">
+                <span class="step-number">7</span>
+                Test Real Workflow (Optional but Recommended)
+            </div>
+            <div class="step-content">
+                <p>Test the complete user flow to ensure emails work in real scenarios.</p>
+                
+                <div class="option">
+                    <h4>Test Visit Request:</h4>
+                    <ol>
+                        <li>Login as a <strong>tenant</strong></li>
+                        <li>Browse properties: <code>http://localhost/HomeHub/properties.php</code></li>
+                        <li>Click on a property to view details</li>
+                        <li>Click <strong>"Request Visit"</strong> button</li>
+                        <li>Fill out the visit request form</li>
+                        <li>Submit the form</li>
+                        <li>✅ The <strong>landlord</strong> should receive an email notification</li>
+                    </ol>
+                </div>
+                
+                <div class="option">
+                    <h4>Test Booking Request:</h4>
+                    <ol>
+                        <li>Login as a <strong>tenant</strong></li>
+                        <li>Open a property detail page</li>
+                        <li>Click <strong>"Book Now"</strong> or <strong>"Reserve"</strong> button</li>
+                        <li>Fill out the reservation form</li>
+                        <li>Submit the form</li>
+                        <li>✅ The <strong>landlord</strong> should receive an email notification</li>
+                    </ol>
+                </div>
+                
+                <div class="option">
+                    <h4>Test Approval Notifications:</h4>
+                    <ol>
+                        <li>Login as a <strong>landlord</strong></li>
+                        <li>Go to bookings: <code>http://localhost/HomeHub/landlord/bookings.php</code></li>
+                        <li>Find a pending visit or reservation</li>
+                        <li>Click <strong>"Approve"</strong></li>
+                        <li>✅ The <strong>tenant</strong> should receive a confirmation email</li>
+                    </ol>
+                </div>
+                
+                <div class="checkpoint">
+                    <strong>✅ Checkpoint:</strong> Both landlords and tenants receive appropriate emails during the workflow.
+                </div>
+            </div>
+        </div>
+        
+        <!-- COMPLETION -->
+        <div class="step" style="border-left-color: #10b981; background: #d1fae5;">
+            <div class="step-title" style="color: #065f46;">
+                <span class="step-number" style="background: #10b981;">✓</span>
+                All Done! 🎉
+            </div>
+            <div class="step-content">
+                <p><strong>Congratulations!</strong> Your email notification system is now set up and working.</p>
+                
+                <div class="success-box">
+                    <strong>What you've accomplished:</strong>
+                    <ul>
+                        <li>✅ Created email database tables</li>
+                        <li>✅ Configured email/SMTP settings</li>
+                        <li>✅ Tested email delivery</li>
+                        <li>✅ Verified different email templates</li>
+                        <li>✅ Tested real-world workflows (optional)</li>
+                    </ul>
+                </div>
+                
+                <p style="margin-top: 15px;"><strong>Email Types Now Working:</strong></p>
+                <ul>
+                    <li>📧 Visit request notifications (to landlords)</li>
+                    <li>📧 Booking request notifications (to landlords)</li>
+                    <li>📧 Visit approved notifications (to tenants)</li>
+                    <li>📧 Reservation approved notifications (to tenants)</li>
+                    <li>📧 Property performance updates (to landlords)</li>
+                    <li>📧 New message notifications (to both)</li>
+                    <li>📧 Welcome emails (to new users)</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Navigation -->
+        <div class="nav-buttons">
+            <a href="test_email_notifications.php">📊 Test Dashboard</a>
+            <a href="admin/email-settings.php">⚙️ Email Settings</a>
+            <a href="admin/email-preview.php">👁️ Preview Templates</a>
+            <a href="EMAIL_TESTING_GUIDE.md">📖 Documentation</a>
+        </div>
+    </div>
+</body>
+</html>
