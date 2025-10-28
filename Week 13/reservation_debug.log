@@ -1,0 +1,25 @@
+=== New Request at 2025-10-20 19:08:06 ===
+Session user_id: 1
+Session user_type: tenant
+POST Data: Array
+(
+    [property_id] => 11
+    [move_in_date] => 2025-11-08
+    [lease_duration] => 12
+    [reservation_fee] => 50000
+    [payment_method] => bank_transfer
+    [employment_status] => employed
+    [monthly_income] => 50000
+    [requirements] => 50000
+    [agree_terms] => on
+)
+
+Database connected successfully
+Parsed propertyId: 11
+Parsed moveInDate: 2025-11-08
+Parsed leaseDuration: 12
+Parsed reservationFee: 50000
+Parsed agreeTerms: YES
+All validations passed
+SUCCESS: About to send success response
+Response sent

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Landlord Reservations Diagnostic</title>
+    <style>
+        body { font-family: Arial; padding: 20px; background: #f5f5f5; }
+        .section { background: white; padding: 20px; margin: 10px 0; border-radius: 8px; }
+        button { padding: 10px 20px; background: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer; }
+        button:hover { background: #45a049; }
+        pre { background: #f9f9f9; padding: 10px; overflow-x: auto; }
+        .error { color: red; }
+        .success { color: green; }
+    </style>
+</head>
+<body>
+    <h1>🔍 Landlord Reservations Diagnostic</h1>
+    
+    <div class="section">
+        <h2>Test API Endpoint</h2>
+        <button onclick="testAPI()">Test get-landlord-reservations.php</button>
+        <div id="apiResult"></div>
+    </div>
+    
+    <div class="section">
+        <h2>Test Modal JavaScript</h2>
+        <button onclick="testModal()">Check if Modal Exists</button>
+        <div id="modalResult"></div>
+    </div>
+    
+    <div class="section">
+        <h2>Test Button Click</h2>
+        <button onclick="testButton()">Simulate Button Click</button>
+        <div id="buttonResult"></div>
+    </div>
+    
+    <script>
+        function testAPI() {
+            document.getElementById('apiResult').innerHTML = '<p>Loading...</p>';
+            
+            fetch('api/get-landlord-reservations.php')
+                .then(response => {
+                    console.log('Response status:', response.status);
+                    return response.json();
+                })
+                .then(data => {
+                    console.log('API Data:', data);
+                    document.getElementById('apiResult').innerHTML = `
+                        <h3 class="success">✅ API Response:</h3>
+                        <pre>${JSON.stringify(data, null, 2)}</pre>
+                    `;
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.getElementById('apiResult').innerHTML = `
+                        <h3 class="error">❌ API Error:</h3>
+                        <pre>${error.message}</pre>
+                    `;
+                });
+        }
+        
+        function testModal() {
+            const modal = document.getElementById('manageReservationsModal');
+            const button = document.getElementById('manageReservationsBtn');
+            
+            let result = '<h3>Modal Check:</h3><ul>';
+            result += modal ? '<li class="success">✅ Modal exists</li>' : '<li class="error">❌ Modal not found</li>';
+            result += button ? '<li class="success">✅ Button exists</li>' : '<li class="error">❌ Button not found</li>';
+            result += '</ul>';
+            
+            document.getElementById('modalResult').innerHTML = result;
+        }
+        
+        function testButton() {
+            const button = document.getElementById('manageReservationsBtn');
+            
+            if (button) {
+                button.click();
+                document.getElementById('buttonResult').innerHTML = '<p class="success">✅ Button clicked! Check if modal opened.</p>';
+            } else {
+                document.getElementById('buttonResult').innerHTML = '<p class="error">❌ Button not found!</p>';
+            }
+        }
+    </script>
+</body>
+</html>

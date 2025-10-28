@@ -1,0 +1,788 @@
+2025-10-27 06:06:44 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => U2iEqqxTJuL8fdV
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:06:44 - Request method is POST
+2025-10-27 06:06:44 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:06:44 - Getting DB connection
+2025-10-27 06:06:44 - DB connection successful
+2025-10-27 06:06:44 - Checking if email exists
+2025-10-27 06:06:44 - Inserting into users table
+2025-10-27 06:06:44 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:06:44 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => U2iEqqxTJuL8fdV
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:06:44 - Request method is POST
+2025-10-27 06:06:44 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:06:44 - Getting DB connection
+2025-10-27 06:06:44 - DB connection successful
+2025-10-27 06:06:44 - Checking if email exists
+2025-10-27 06:06:44 - Inserting into users table
+2025-10-27 06:06:44 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:06:45 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => U2iEqqxTJuL8fdV
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:06:45 - Request method is POST
+2025-10-27 06:06:45 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:06:45 - Getting DB connection
+2025-10-27 06:06:45 - DB connection successful
+2025-10-27 06:06:45 - Checking if email exists
+2025-10-27 06:06:45 - Inserting into users table
+2025-10-27 06:06:45 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:06:45 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => U2iEqqxTJuL8fdV
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:06:45 - Request method is POST
+2025-10-27 06:06:45 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:06:45 - Getting DB connection
+2025-10-27 06:06:45 - DB connection successful
+2025-10-27 06:06:45 - Checking if email exists
+2025-10-27 06:06:45 - Inserting into users table
+2025-10-27 06:06:45 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:06:45 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => U2iEqqxTJuL8fdV
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:06:45 - Request method is POST
+2025-10-27 06:06:45 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:06:45 - Getting DB connection
+2025-10-27 06:06:45 - DB connection successful
+2025-10-27 06:06:45 - Checking if email exists
+2025-10-27 06:06:45 - Inserting into users table
+2025-10-27 06:06:45 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:06:45 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => U2iEqqxTJuL8fdV
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:06:45 - Request method is POST
+2025-10-27 06:06:45 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:06:45 - Getting DB connection
+2025-10-27 06:06:45 - DB connection successful
+2025-10-27 06:06:45 - Checking if email exists
+2025-10-27 06:06:45 - Inserting into users table
+2025-10-27 06:06:45 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:06:45 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => U2iEqqxTJuL8fdV
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:06:45 - Request method is POST
+2025-10-27 06:06:45 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:06:45 - Getting DB connection
+2025-10-27 06:06:45 - DB connection successful
+2025-10-27 06:06:45 - Checking if email exists
+2025-10-27 06:06:45 - Inserting into users table
+2025-10-27 06:06:45 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:06:47 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => U2iEqqxTJuL8fdV
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:06:47 - Request method is POST
+2025-10-27 06:06:47 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:06:47 - Getting DB connection
+2025-10-27 06:06:47 - DB connection successful
+2025-10-27 06:06:47 - Checking if email exists
+2025-10-27 06:06:47 - Inserting into users table
+2025-10-27 06:06:47 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:06:47 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => U2iEqqxTJuL8fdV
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:06:47 - Request method is POST
+2025-10-27 06:06:47 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:06:47 - Getting DB connection
+2025-10-27 06:06:47 - DB connection successful
+2025-10-27 06:06:47 - Checking if email exists
+2025-10-27 06:06:47 - Inserting into users table
+2025-10-27 06:06:47 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:06:47 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => U2iEqqxTJuL8fdV
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:06:47 - Request method is POST
+2025-10-27 06:06:47 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:06:47 - Getting DB connection
+2025-10-27 06:06:47 - DB connection successful
+2025-10-27 06:06:47 - Checking if email exists
+2025-10-27 06:06:47 - Inserting into users table
+2025-10-27 06:06:47 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:07:12 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => U2iEqqxTJuL8fdV
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:07:12 - Request method is POST
+2025-10-27 06:07:12 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:07:12 - Getting DB connection
+2025-10-27 06:07:12 - DB connection successful
+2025-10-27 06:07:12 - Checking if email exists
+2025-10-27 06:07:12 - Inserting into users table
+2025-10-27 06:07:12 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:07:14 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => U2iEqqxTJuL8fdV
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:07:14 - Request method is POST
+2025-10-27 06:07:14 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:07:14 - Getting DB connection
+2025-10-27 06:07:14 - DB connection successful
+2025-10-27 06:07:14 - Checking if email exists
+2025-10-27 06:07:14 - Inserting into users table
+2025-10-27 06:07:14 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:07:14 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => U2iEqqxTJuL8fdV
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:07:14 - Request method is POST
+2025-10-27 06:07:14 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:07:14 - Getting DB connection
+2025-10-27 06:07:14 - DB connection successful
+2025-10-27 06:07:14 - Checking if email exists
+2025-10-27 06:07:14 - Inserting into users table
+2025-10-27 06:07:14 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:08:51 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => U2iEqqxTJuL8fdV
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:08:51 - Request method is POST
+2025-10-27 06:08:51 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:08:51 - Getting DB connection
+2025-10-27 06:08:51 - DB connection successful
+2025-10-27 06:08:51 - Checking if email exists
+2025-10-27 06:08:51 - Inserting into users table
+2025-10-27 06:08:51 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:08:52 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => U2iEqqxTJuL8fdV
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:08:52 - Request method is POST
+2025-10-27 06:08:52 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:08:52 - Getting DB connection
+2025-10-27 06:08:52 - DB connection successful
+2025-10-27 06:08:52 - Checking if email exists
+2025-10-27 06:08:52 - Inserting into users table
+2025-10-27 06:08:52 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:08:52 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => U2iEqqxTJuL8fdV
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:08:52 - Request method is POST
+2025-10-27 06:08:52 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:08:52 - Getting DB connection
+2025-10-27 06:08:52 - DB connection successful
+2025-10-27 06:08:52 - Checking if email exists
+2025-10-27 06:08:52 - Inserting into users table
+2025-10-27 06:08:52 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:08:52 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => U2iEqqxTJuL8fdV
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:08:52 - Request method is POST
+2025-10-27 06:08:52 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:08:52 - Getting DB connection
+2025-10-27 06:08:52 - DB connection successful
+2025-10-27 06:08:52 - Checking if email exists
+2025-10-27 06:08:52 - Inserting into users table
+2025-10-27 06:08:52 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:08:52 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => U2iEqqxTJuL8fdV
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:08:52 - Request method is POST
+2025-10-27 06:08:52 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:08:53 - Getting DB connection
+2025-10-27 06:08:53 - DB connection successful
+2025-10-27 06:08:53 - Checking if email exists
+2025-10-27 06:08:53 - Inserting into users table
+2025-10-27 06:08:53 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:08:59 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => U2iEqqxTJuL8fdV
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:08:59 - Request method is POST
+2025-10-27 06:08:59 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:08:59 - Getting DB connection
+2025-10-27 06:08:59 - DB connection successful
+2025-10-27 06:08:59 - Checking if email exists
+2025-10-27 06:08:59 - Inserting into users table
+2025-10-27 06:08:59 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:08:59 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => U2iEqqxTJuL8fdV
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:08:59 - Request method is POST
+2025-10-27 06:08:59 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:09:00 - Getting DB connection
+2025-10-27 06:09:00 - DB connection successful
+2025-10-27 06:09:00 - Checking if email exists
+2025-10-27 06:09:00 - Inserting into users table
+2025-10-27 06:09:00 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:09:01 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => U2iEqqxTJuL8fdV
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:09:01 - Request method is POST
+2025-10-27 06:09:01 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:09:01 - Getting DB connection
+2025-10-27 06:09:01 - DB connection successful
+2025-10-27 06:09:01 - Checking if email exists
+2025-10-27 06:09:01 - Inserting into users table
+2025-10-27 06:09:01 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:09:01 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => U2iEqqxTJuL8fdV
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:09:01 - Request method is POST
+2025-10-27 06:09:01 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:09:02 - Getting DB connection
+2025-10-27 06:09:02 - DB connection successful
+2025-10-27 06:09:02 - Checking if email exists
+2025-10-27 06:09:02 - Inserting into users table
+2025-10-27 06:09:02 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:09:02 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => U2iEqqxTJuL8fdV
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:09:02 - Request method is POST
+2025-10-27 06:09:02 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:09:02 - Getting DB connection
+2025-10-27 06:09:02 - DB connection successful
+2025-10-27 06:09:02 - Checking if email exists
+2025-10-27 06:09:02 - Inserting into users table
+2025-10-27 06:09:02 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:09:02 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => U2iEqqxTJuL8fdV
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:09:02 - Request method is POST
+2025-10-27 06:09:02 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:09:02 - Getting DB connection
+2025-10-27 06:09:02 - DB connection successful
+2025-10-27 06:09:02 - Checking if email exists
+2025-10-27 06:09:02 - Inserting into users table
+2025-10-27 06:09:02 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:09:54 - POST DATA:
+Array
+(
+    [fullName] => Test User
+    [email] => test1761541794@example.com
+    [password] => password123
+    [phone] => 1234567890
+    [userType] => tenant
+)
+
+2025-10-27 06:11:42 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => U2iEqqxTJuL8fdV
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:11:42 - Request method is POST
+2025-10-27 06:11:42 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:11:42 - Getting DB connection
+2025-10-27 06:11:42 - DB connection successful
+2025-10-27 06:11:42 - Checking if email exists
+2025-10-27 06:11:42 - Inserting into users table
+2025-10-27 06:11:42 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:11:45 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => U2iEqqxTJuL8fdV
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:11:45 - Request method is POST
+2025-10-27 06:11:45 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:11:45 - Getting DB connection
+2025-10-27 06:11:45 - DB connection successful
+2025-10-27 06:11:45 - Checking if email exists
+2025-10-27 06:11:45 - Inserting into users table
+2025-10-27 06:11:45 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:11:45 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => U2iEqqxTJuL8fdV
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:11:45 - Request method is POST
+2025-10-27 06:11:45 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:11:45 - Getting DB connection
+2025-10-27 06:11:45 - DB connection successful
+2025-10-27 06:11:45 - Checking if email exists
+2025-10-27 06:11:45 - Inserting into users table
+2025-10-27 06:11:45 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:14:00 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => GQzFDb5aanXjQxT
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:14:00 - Request method is POST
+2025-10-27 06:14:00 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:14:00 - Getting DB connection
+2025-10-27 06:14:00 - DB connection successful
+2025-10-27 06:14:00 - Checking if email exists
+2025-10-27 06:14:00 - Inserting into users table
+2025-10-27 06:14:00 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:14:01 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => GQzFDb5aanXjQxT
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:14:01 - Request method is POST
+2025-10-27 06:14:01 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:14:01 - Getting DB connection
+2025-10-27 06:14:01 - DB connection successful
+2025-10-27 06:14:01 - Checking if email exists
+2025-10-27 06:14:01 - Inserting into users table
+2025-10-27 06:14:01 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:14:01 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => GQzFDb5aanXjQxT
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:14:01 - Request method is POST
+2025-10-27 06:14:01 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:14:01 - Getting DB connection
+2025-10-27 06:14:01 - DB connection successful
+2025-10-27 06:14:01 - Checking if email exists
+2025-10-27 06:14:01 - Inserting into users table
+2025-10-27 06:14:01 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:14:01 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => GQzFDb5aanXjQxT
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:14:01 - Request method is POST
+2025-10-27 06:14:01 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:14:01 - Getting DB connection
+2025-10-27 06:14:01 - DB connection successful
+2025-10-27 06:14:01 - Checking if email exists
+2025-10-27 06:14:01 - Inserting into users table
+2025-10-27 06:14:01 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:14:01 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => GQzFDb5aanXjQxT
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:14:01 - Request method is POST
+2025-10-27 06:14:01 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:14:01 - Getting DB connection
+2025-10-27 06:14:01 - DB connection successful
+2025-10-27 06:14:01 - Checking if email exists
+2025-10-27 06:14:01 - Inserting into users table
+2025-10-27 06:14:01 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:14:01 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => GQzFDb5aanXjQxT
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:14:01 - Request method is POST
+2025-10-27 06:14:01 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:14:02 - Getting DB connection
+2025-10-27 06:14:02 - DB connection successful
+2025-10-27 06:14:02 - Checking if email exists
+2025-10-27 06:14:02 - Inserting into users table
+2025-10-27 06:14:02 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:14:02 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => GQzFDb5aanXjQxT
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:14:02 - Request method is POST
+2025-10-27 06:14:02 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:14:02 - Getting DB connection
+2025-10-27 06:14:02 - DB connection successful
+2025-10-27 06:14:02 - Checking if email exists
+2025-10-27 06:14:02 - Inserting into users table
+2025-10-27 06:14:02 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:14:02 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => GQzFDb5aanXjQxT
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:14:02 - Request method is POST
+2025-10-27 06:14:02 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:14:02 - Getting DB connection
+2025-10-27 06:14:02 - DB connection successful
+2025-10-27 06:14:02 - Checking if email exists
+2025-10-27 06:14:02 - Inserting into users table
+2025-10-27 06:14:02 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:14:02 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => GQzFDb5aanXjQxT
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:14:02 - Request method is POST
+2025-10-27 06:14:02 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:14:02 - Getting DB connection
+2025-10-27 06:14:02 - DB connection successful
+2025-10-27 06:14:02 - Checking if email exists
+2025-10-27 06:14:02 - Inserting into users table
+2025-10-27 06:14:02 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:14:06 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => GQzFDb5aanXjQxT
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:14:06 - Request method is POST
+2025-10-27 06:14:06 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:14:06 - Getting DB connection
+2025-10-27 06:14:06 - DB connection successful
+2025-10-27 06:14:06 - Checking if email exists
+2025-10-27 06:14:06 - Inserting into users table
+2025-10-27 06:14:06 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:14:06 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => GQzFDb5aanXjQxT
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:14:06 - Request method is POST
+2025-10-27 06:14:06 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:14:06 - Getting DB connection
+2025-10-27 06:14:06 - DB connection successful
+2025-10-27 06:14:06 - Checking if email exists
+2025-10-27 06:14:06 - Inserting into users table
+2025-10-27 06:14:06 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:14:06 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => GQzFDb5aanXjQxT
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:14:06 - Request method is POST
+2025-10-27 06:14:06 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:14:06 - Getting DB connection
+2025-10-27 06:14:06 - DB connection successful
+2025-10-27 06:14:06 - Checking if email exists
+2025-10-27 06:14:06 - Inserting into users table
+2025-10-27 06:14:06 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:14:06 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => GQzFDb5aanXjQxT
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:14:06 - Request method is POST
+2025-10-27 06:14:06 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:14:06 - Getting DB connection
+2025-10-27 06:14:06 - DB connection successful
+2025-10-27 06:14:06 - Checking if email exists
+2025-10-27 06:14:06 - Inserting into users table
+2025-10-27 06:14:06 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:14:06 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => GQzFDb5aanXjQxT
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:14:06 - Request method is POST
+2025-10-27 06:14:06 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:14:06 - Getting DB connection
+2025-10-27 06:14:06 - DB connection successful
+2025-10-27 06:14:06 - Checking if email exists
+2025-10-27 06:14:06 - Inserting into users table
+2025-10-27 06:14:06 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:14:14 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => GQzFDb5aanXjQxT
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:14:14 - Request method is POST
+2025-10-27 06:14:14 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:14:14 - Getting DB connection
+2025-10-27 06:14:14 - DB connection successful
+2025-10-27 06:14:14 - Checking if email exists
+2025-10-27 06:14:14 - Inserting into users table
+2025-10-27 06:14:14 - ERROR: Unknown column 'user_type' in 'field list'
+
+2025-10-27 06:16:18 - POST DATA:
+Array
+(
+    [fullName] => Francis Zachary Domingo
+    [email] => zachdomingojavellana@gmail.com
+    [password] => Ghjgihf4hUQUbzE
+    [phone] => 09326977891
+    [userType] => tenant
+)
+
+2025-10-27 06:16:18 - Request method is POST
+2025-10-27 06:16:18 - Sanitized data: name=Francis Zachary Domingo, email=zachdomingojavellana@gmail.com, phone=09326977891, type=tenant
+2025-10-27 06:16:18 - Getting DB connection
+2025-10-27 06:16:18 - DB connection successful
+2025-10-27 06:16:18 - Checking if email exists
+2025-10-27 06:16:18 - Inserting into users table
+2025-10-27 06:16:18 - User inserted with ID: 5
+2025-10-27 06:16:18 - Inserting into tenants table
+2025-10-27 06:16:18 - Transaction committed
+2025-10-27 06:16:18 - Session variables set
+2025-10-27 06:16:18 - SUCCESS: Registration complete
+

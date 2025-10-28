@@ -1,0 +1,55 @@
+2025-10-27 16:08:13 - RESERVATION APPROVED EMAIL
+Tenant Email: goodplayer984@gmail.com
+Tenant Name: goodplayer 
+Property: 7894561
+Email send result: SUCCESS
+---
+2025-10-27 16:14:39 - RESERVATION APPROVED EMAIL
+Tenant Email: tenant@example.com
+Tenant Name: Tenant Profile
+Property: 7894561
+Email send result: SUCCESS
+---
+2025-10-27 16:28:42 - RESERVATION REJECTED EMAIL
+Tenant Email: tenant.homehub@gmail.com
+Property: 7894561
+Action: REJECTED (no email function yet)
+---
+2025-10-27 16:28:45 - RESERVATION REJECTED EMAIL
+Tenant Email: tenant.homehub@gmail.com
+Property: 7894561
+Action: REJECTED (no email function yet)
+---
+2025-10-27 16:28:49 - RESERVATION REJECTED EMAIL
+Tenant Email: tenant.homehub@gmail.com
+Property: 7894561
+Action: REJECTED (no email function yet)
+---
+2025-10-27 16:28:52 - RESERVATION REJECTED EMAIL
+Tenant Email: tenant.homehub@gmail.com
+Property: 7894561
+Action: REJECTED (no email function yet)
+---
+2025-10-27 16:28:56 - RESERVATION REJECTED EMAIL
+Tenant Email: tenant.homehub@gmail.com
+Property: 7894561
+Action: REJECTED (no email function yet)
+---
+2025-10-27 16:28:59 - RESERVATION REJECTED EMAIL
+Tenant Email: tenant.homehub@gmail.com
+Property: 7894561
+Action: REJECTED (no email function yet)
+---
+2025-10-27 16:45:08 - RESERVATION APPROVED EMAIL
+Tenant Email: goodplayer981@gmail.com
+Tenant Name: goods 
+Property: 123
+Email send result: SUCCESS
+---
+2025-10-27 16:53:43 - VISIT APPROVED EMAIL
+Tenant Email: goodplayer981@gmail.com
+Tenant Name: goods 
+Property: 7894561
+Visit Date: 2025-10-28
+Email send result: SUCCESS
+---

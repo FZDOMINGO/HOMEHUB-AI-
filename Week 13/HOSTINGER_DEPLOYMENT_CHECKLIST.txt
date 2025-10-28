@@ -1,0 +1,138 @@
+# HOSTINGER DEPLOYMENT CHECKLIST
+Generated: 2025-10-27 20:25:31
+
+## ✅ Before Upload
+
+### 1. Database
+- [ ] Export database from phpMyAdmin (homehub.sql)
+- [ ] Have Hostinger database credentials ready
+- [ ] Update config/db_connect.php with Hostinger credentials:
+      - DB_SERVER: localhost
+      - DB_USERNAME: u######_username
+      - DB_PASSWORD: YourPassword
+      - DB_NAME: u######_homehub
+
+### 2. Files to Delete (DO NOT UPLOAD)
+Delete these 71 files:
+- [ ] test_activity_counts.php
+- [ ] test_admin_login.php
+- [ ] test_admin_properties_actions.php
+- [ ] test_ai_features.php
+- [ ] test_analytics.php
+- [ ] test_analytics_api.php
+- [ ] test_api_direct.php
+- [ ] test_booking_email.php
+- [ ] test_dashboard_updates.php
+- [ ] test_database.php
+- [ ] test_email_api_debug.php
+- [ ] test_email_direct.php
+- [ ] test_email_notifications.php
+- [ ] test_foreign_key_fix.php
+- [ ] test_gmail_auth.php
+- [ ] test_history_api.php
+- [ ] test_history_api_direct.php
+- [ ] test_landlord_reservations.php
+- [ ] test_matches_api.php
+- [ ] test_navbar.php
+- [ ] test_preferences_schema.php
+- [ ] test_properties_actions_simple.php
+- [ ] test_realtime_activity_update.php
+- [ ] test_recommendations.php
+- [ ] test_recommendations_api.php
+- [ ] test_register_direct.php
+- [ ] test_registration.php
+- [ ] test_save_history.php
+- [ ] test_send_booking_email.php
+- [ ] test_settings_functionality.php
+- [ ] test_suspend_property.php
+- [ ] test_tenant_dashboard.php
+- [ ] test_visit_approval_email.php
+- [ ] check_activity_tables.php
+- [ ] check_admin_users.php
+- [ ] check_ai_database.php
+- [ ] check_available_properties.php
+- [ ] check_bookings_system.php
+- [ ] check_browsing_history.php
+- [ ] check_email_user.php
+- [ ] check_history_data.php
+- [ ] check_hostinger_readiness.php
+- [ ] check_images_columns.php
+- [ ] check_landlord_stats.php
+- [ ] check_landlords.php
+- [ ] check_messages_table.php
+- [ ] check_notifications.php
+- [ ] check_phone_column.php
+- [ ] check_phone_numbers.php
+- [ ] check_properties_columns.php
+- [ ] check_properties_schema.php
+- [ ] check_properties_status.php
+- [ ] check_properties_table.php
+- [ ] check_recent_users.php
+- [ ] check_recommendation_cache.php
+- [ ] check_saved_properties.php
+- [ ] check_similarity_scores.php
+- [ ] check_tables.php
+- [ ] check_tenant_preferences.php
+- [ ] check_user_browsing.php
+- [ ] check_users_columns.php
+- [ ] check_users_structure.php
+- [ ] check_visit_details.php
+- [ ] debug_email_config.php
+- [ ] debug_history_api.php
+- [ ] debug_navbar.php
+- [ ] production_test.php
+- [ ] api/check_session.php
+- [ ] api/login_debug.php
+- [ ] api/register_debug.php
+- [ ] tenant/debug_navbar.php
+
+### 3. Files to Upload
+- [ ] All folders: admin/, api/, assets/, config/, guest/, includes/, landlord/, sql/, tenant/, uploads/
+- [ ] includes/PHPMailer/ folder (IMPORTANT!)
+- [ ] Main files: index.php, .htaccess, bookings.php, properties.php, etc.
+- [ ] Do NOT upload: .git/, *.md files, test files
+
+### 4. Hostinger Setup
+- [ ] Upload all files to public_html/
+- [ ] Set uploads/ folder permission to 755
+- [ ] Import homehub.sql in phpMyAdmin
+- [ ] Test: https://homehubai.shop/
+
+## 📋 Post-Upload Testing
+
+- [ ] Home page loads (redirects to guest page)
+- [ ] Can view properties as guest
+- [ ] Registration works
+- [ ] Login works
+- [ ] Tenant dashboard works
+- [ ] Landlord dashboard works
+- [ ] Email notifications work
+- [ ] Image uploads work
+- [ ] No database errors in error_log.txt
+
+## 🚨 Critical Issues Found
+
+❌ Update config/db_connect.php with Hostinger database credentials
+❌ Set database password in config/db_connect.php
+❌ Delete 71 test/debug files before upload
+
+## 📞 Troubleshooting
+
+If you see errors on Hostinger:
+1. Check error_log.txt in public_html/
+2. Verify database credentials in config/db_connect.php
+3. Check if database was imported successfully
+4. Verify includes/PHPMailer/ folder exists
+5. Check folder permissions (uploads = 755)
+
+## 🎯 Hostinger Database Format
+
+Your Hostinger credentials will look like:
+```
+Database: u123456789_homehub
+Username: u123456789_admin
+Password: YourStrongPassword123
+Server: localhost
+```
+
+Get these from: Hostinger Panel → MySQL Databases

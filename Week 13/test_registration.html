@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Registration API</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .result { background: #f4f4f4; padding: 15px; margin: 10px 0; border-radius: 5px; }
+        .error { background: #ffe6e6; color: red; }
+        .success { background: #e6ffe6; color: green; }
+        button { background: #8b5cf6; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h2>Test Registration API Directly</h2>
+    <button onclick="testRegister()">Test Register</button>
+    <div id="results"></div>
+
+    <script>
+        async function testRegister() {
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '<p>Testing...</p>';
+            
+            try {
+                const formData = new FormData();
+                formData.append('fullName', 'Test User ' + Date.now());
+                formData.append('email', 'test' + Date.now() + '@example.com');
+                formData.append('password', 'password123');
+                formData.append('phone', '1234567890');
+                formData.append('userType', 'tenant');
+                
+                console.log('Sending request...');
+                
+                const response = await fetch('api/register_debug.php', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                console.log('Response status:', response.status);
+                console.log('Response headers:', response.headers);
+                
+                const contentType = response.headers.get('content-type');
+                console.log('Content-Type:', contentType);
+                
+                const text = await response.text();
+                console.log('Raw response:', text);
+                console.log('First 200 chars:', text.substring(0, 200));
+                
+                resultsDiv.innerHTML = `
+                    <div class="result">
+                        <h3>Response Status: ${response.status}</h3>
+                        <h3>Content-Type: ${contentType}</h3>
+                        <h3>Raw Response (first 500 chars):</h3>
+                        <pre>${text.substring(0, 500)}</pre>
+                        <h3>Full Raw Response:</h3>
+                        <pre>${text}</pre>
+                    </div>
+                `;
+                
+                // Try to parse as JSON
+                try {
+                    const data = JSON.parse(text);
+                    resultsDiv.innerHTML += `
+                        <div class="result success">
+                            <h3>✅ Successfully parsed JSON:</h3>
+                            <pre>${JSON.stringify(data, null, 2)}</pre>
+                        </div>
+                    `;
+                } catch (e) {
+                    resultsDiv.innerHTML += `
+                        <div class="result error">
+                            <h3>❌ Failed to parse JSON:</h3>
+                            <p>${e.message}</p>
+                        </div>
+                    `;
+                }
+                
+            } catch (error) {
+                console.error('Error:', error);
+                resultsDiv.innerHTML = `
+                    <div class="result error">
+                        <h3>❌ Request Failed:</h3>
+                        <p>${error.message}</p>
+                    </div>
+                `;
+            }
+        }
+    </script>
+</body>
+</html>

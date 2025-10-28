@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Registration & Login System</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            padding: 20px; 
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 { color: #8b5cf6; }
+        .test-section {
+            margin: 30px 0;
+            padding: 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+        }
+        button {
+            background: #8b5cf6;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 5px;
+        }
+        button:hover {
+            background: #7c3aed;
+        }
+        .result {
+            margin-top: 15px;
+            padding: 15px;
+            border-radius: 5px;
+            white-space: pre-wrap;
+        }
+        .success { background: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+        .error { background: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+        .info { background: #d1ecf1; color: #0c5460; border: 1px solid #bee5eb; }
+        input {
+            padding: 10px;
+            margin: 5px 0;
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .form-group {
+            margin: 15px 0;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧪 Registration & Login System Test</h1>
+        
+        <div class="test-section">
+            <h2>1️⃣ Test Registration (Tenant)</h2>
+            <div class="form-group">
+                <label>Full Name:</label>
+                <input type="text" id="reg_name" value="Test User">
+            </div>
+            <div class="form-group">
+                <label>Email:</label>
+                <input type="email" id="reg_email" value="">
+            </div>
+            <div class="form-group">
+                <label>Password:</label>
+                <input type="password" id="reg_password" value="password123">
+            </div>
+            <div class="form-group">
+                <label>Phone:</label>
+                <input type="tel" id="reg_phone" value="1234567890">
+            </div>
+            <button onclick="testRegister('tenant')">Register as Tenant</button>
+            <button onclick="testRegister('landlord')">Register as Landlord</button>
+            <div id="reg_result"></div>
+        </div>
+
+        <div class="test-section">
+            <h2>2️⃣ Test Login</h2>
+            <div class="form-group">
+                <label>Email:</label>
+                <input type="email" id="login_email" value="">
+            </div>
+            <div class="form-group">
+                <label>Password:</label>
+                <input type="password" id="login_password" value="password123">
+            </div>
+            <button onclick="testLogin('tenant')">Login as Tenant</button>
+            <button onclick="testLogin('landlord')">Login as Landlord</button>
+            <div id="login_result"></div>
+        </div>
+
+        <div class="test-section">
+            <h2>3️⃣ View Recent Users</h2>
+            <button onclick="viewUsers()">View Recent Users</button>
+            <div id="users_result"></div>
+        </div>
+
+        <div class="test-section">
+            <h2>4️⃣ Quick Links</h2>
+            <button onclick="window.open('login/register.html', '_blank')">Open Registration Page</button>
+            <button onclick="window.open('login/login.html', '_blank')">Open Login Page</button>
+            <button onclick="window.open('view_registration_log.php', '_blank')">View Registration Log</button>
+            <button onclick="window.open('view_login_log.php', '_blank')">View Login Log</button>
+        </div>
+    </div>
+
+    <script>
+        // Auto-generate random email on page load
+        document.getElementById('reg_email').value = 'test' + Date.now() + '@example.com';
+
+        async function testRegister(userType) {
+            const resultDiv = document.getElementById('reg_result');
+            resultDiv.innerHTML = '<div class="info">Testing registration...</div>';
+            
+            try {
+                const formData = new FormData();
+                formData.append('fullName', document.getElementById('reg_name').value);
+                formData.append('email', document.getElementById('reg_email').value);
+                formData.append('password', document.getElementById('reg_password').value);
+                formData.append('phone', document.getElementById('reg_phone').value);
+                formData.append('userType', userType);
+                
+                const response = await fetch('api/register.php', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const data = await response.json();
+                
+                if (data.status === 'success') {
+                    resultDiv.innerHTML = `<div class="success">✅ Registration successful!<br>Type: ${userType}<br>Message: ${data.message}<br><br>Now try logging in with this email and password.</div>`;
+                    // Copy email to login field
+                    document.getElementById('login_email').value = document.getElementById('reg_email').value;
+                    // Generate new email for next test
+                    document.getElementById('reg_email').value = 'test' + Date.now() + '@example.com';
+                } else {
+                    resultDiv.innerHTML = `<div class="error">❌ Registration failed:<br>${data.message}</div>`;
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `<div class="error">❌ Error: ${error.message}</div>`;
+            }
+        }
+
+        async function testLogin(userType) {
+            const resultDiv = document.getElementById('login_result');
+            resultDiv.innerHTML = '<div class="info">Testing login...</div>';
+            
+            try {
+                const formData = new FormData();
+                formData.append('email', document.getElementById('login_email').value);
+                formData.append('password', document.getElementById('login_password').value);
+                formData.append('userType', userType);
+                formData.append('remember', false);
+                
+                const response = await fetch('api/login.php', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const data = await response.json();
+                
+                if (data.status === 'success') {
+                    resultDiv.innerHTML = `<div class="success">✅ Login successful!<br>Type: ${userType}<br>User: ${data.user.name}<br>Redirect: ${data.redirect}<br><br><button onclick="window.location.href='${data.redirect}'">Go to Dashboard</button></div>`;
+                } else {
+                    resultDiv.innerHTML = `<div class="error">❌ Login failed:<br>${data.message}</div>`;
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `<div class="error">❌ Error: ${error.message}</div>`;
+            }
+        }
+
+        async function viewUsers() {
+            const resultDiv = document.getElementById('users_result');
+            resultDiv.innerHTML = '<div class="info">Loading users...</div>';
+            
+            try {
+                const response = await fetch('check_recent_users.php');
+                const html = await response.text();
+                resultDiv.innerHTML = html;
+            } catch (error) {
+                resultDiv.innerHTML = `<div class="error">❌ Error: ${error.message}</div>`;
+            }
+        }
+    </script>
+</body>
+</html>
