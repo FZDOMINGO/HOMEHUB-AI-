@@ -1,0 +1,225 @@
+/* Manage Properties Specific Styles */
+.properties-header {
+  margin-bottom: 30px;
+}
+
+.properties-header h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.properties-header p {
+  color: #666;
+  font-size: 16px;
+}
+
+.add-property-section {
+  margin-bottom: 20px;
+}
+
+.btn-add-property {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #8b5cf6;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.btn-add-property:hover {
+  background-color: #7c3aed;
+}
+
+.properties-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.property-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  border: 1px solid #eee;
+}
+
+.property-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.property-header h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  color: #333;
+}
+
+.property-status {
+  padding: 4px 10px;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.property-status.available {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.property-status.occupied {
+  background-color: #fee2e2;
+  color: #b91c1c;
+}
+
+.property-status.maintenance {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.property-info {
+  padding: 15px 20px;
+}
+
+.property-location {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.property-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.property-stats span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  color: #666;
+}
+
+.property-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.property-details span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  color: #666;
+}
+
+.property-actions {
+  display: flex;
+  padding: 15px 20px;
+  border-top: 1px solid #eee;
+  background-color: #f9f9f9;
+  gap: 10px;
+}
+
+.btn-edit, .btn-delete {
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-edit {
+  background-color: #f3f4f6;
+  color: #333;
+  border: 1px solid #ddd;
+  text-decoration: none;
+  flex: 1;
+}
+
+.btn-edit:hover {
+  background-color: #e5e7eb;
+}
+
+.btn-delete {
+  background-color: #fee2e2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+  flex: 1;
+}
+
+.btn-delete:hover {
+  background-color: #fecaca;
+}
+
+.delete-form {
+  flex: 1;
+}
+
+.no-properties {
+  background-color: white;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.no-properties i {
+  font-size: 50px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.no-properties p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.btn-add {
+  display: inline-block;
+  background-color: #8b5cf6;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.btn-add:hover {
+  background-color: #7c3aed;
+}
+
+@media (max-width: 768px) {
+  .property-stats,
+  .property-details {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .property-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
