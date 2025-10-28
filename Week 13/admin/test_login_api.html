@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Admin Login API</title>
+</head>
+<body>
+    <h2>Testing Admin Login API</h2>
+    <div id="result"></div>
+    
+    <script>
+        const formData = new FormData();
+        formData.append('username', 'admin');
+        formData.append('password', 'admin123');
+        formData.append('remember', '1');
+        
+        console.log('Sending login request...');
+        
+        fetch('../api/admin/login.php', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => {
+            console.log('Response status:', response.status);
+            console.log('Response headers:', response.headers);
+            return response.text();
+        })
+        .then(text => {
+            console.log('Raw response:', text);
+            document.getElementById('result').innerHTML = `
+                <h3>Raw Response:</h3>
+                <pre>${text}</pre>
+                <h3>Trying to parse as JSON:</h3>
+            `;
+            
+            try {
+                const data = JSON.parse(text);
+                document.getElementById('result').innerHTML += `
+                    <pre>${JSON.stringify(data, null, 2)}</pre>
+                `;
+            } catch (e) {
+                document.getElementById('result').innerHTML += `
+                    <p style="color: red;">JSON Parse Error: ${e.message}</p>
+                    <p>This means there's extra output before or after the JSON.</p>
+                `;
+            }
+        })
+        .catch(error => {
+            console.error('Fetch error:', error);
+            document.getElementById('result').innerHTML = `
+                <p style="color: red;">Error: ${error.message}</p>
+            `;
+        });
+    </script>
+</body>
+</html>
