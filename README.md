@@ -646,35 +646,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Bootstrap** - UI framework (if used)
 - **Font Awesome** - Icons (if used)
 
-## 📞 Support
-
-Need help? Here are your options:
-
-1. **Documentation** - Check the `/docs` folder for detailed guides
-2. **Issues** - Open an issue on GitHub
-3. **Email** - Contact support@homehubai.shop
-4. **Community** - Join our developer community (link if available)
-
-## 🗺️ Roadmap
-
-### Version 2.0 (Planned)
-- [ ] Mobile iOS/Android apps
-- [ ] Real-time chat system
-- [ ] Video property tours
-- [ ] Blockchain-based rental agreements
-- [ ] Advanced AI: NLP for property descriptions
-- [ ] Multi-language support
-- [ ] Payment gateway integration
-- [ ] Virtual property tours (360°)
-
-### Version 1.5 (In Progress)
-- [x] AI-powered tenant matching
-- [x] Smart recommendations
-- [x] Predictive analytics
-- [x] Email notification system
-- [ ] SMS notifications
-- [ ] Advanced search filters
-- [ ] Property comparison tool
 
 ---
 
