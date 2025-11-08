@@ -628,10 +628,6 @@ ini_set('display_errors', 1);
 
 **⚠️ Important:** Disable debug mode in production!
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 👨‍💻 Author
 
 **HomeHub AI Team**
